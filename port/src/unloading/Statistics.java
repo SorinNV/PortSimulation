@@ -27,15 +27,15 @@ public class Statistics {
     public LinkedList<ShipStat> statLooseList = new LinkedList<>();
     @JsonDeserialize(as = LinkedList.class, contentAs = ShipStat.class)
     public LinkedList<ShipStat> statContainerList = new LinkedList<>();
-    public int UnloadCount = 0;
-    public int averageQueueSize = 0;
-    public int averageWaitingTime = 0;
-    public int averageDelayTime = 0;
-    public int maxDelayTime;
-    public int sumCost = 0;
-    public int countOfLiquidCrane = 0;
-    public int countOfLooseCrane = 0;
-    public int countOfContainerCrane = 0;
+    public volatile int UnloadCount = 0;
+    public volatile int averageQueueSize = 0;
+    public volatile int averageWaitingTime = 0;
+    public volatile int averageDelayTime = 0;
+    public volatile int maxDelayTime;
+    public volatile int sumCost = 0;
+    public volatile int countOfLiquidCrane = 0;
+    public volatile int countOfLooseCrane = 0;
+    public volatile int countOfContainerCrane = 0;
 
     public Statistics() {}
     public Statistics(Statistics statistics) {

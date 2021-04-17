@@ -4,18 +4,17 @@ import timetable.Ship;
 import timetable.TimeTable;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Random;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 public class Port {
-    private final ArrayList<Ship> liquidShipListToSave;
-    private final ArrayList<Ship> looseShipListToSave;
-    private final ArrayList<Ship> containerShipListToSave;
-    private ArrayList<Ship> liquidShipList;
-    private ArrayList<Ship> looseShipList;
-    private ArrayList<Ship> containerShipList;
+    private final CopyOnWriteArrayList<Ship> liquidShipListToSave;
+    private final CopyOnWriteArrayList<Ship> looseShipListToSave;
+    private final CopyOnWriteArrayList<Ship> containerShipListToSave;
+    private CopyOnWriteArrayList<Ship> liquidShipList;
+    private CopyOnWriteArrayList<Ship> looseShipList;
+    private CopyOnWriteArrayList<Ship> containerShipList;
 
     private final ArrayList<Statistics> statisticsList;
 
@@ -28,12 +27,12 @@ public class Port {
     private final static int waitingCostPerHour = 100;
 
     public Port(TimeTable table) {
-        setLiquidShipList(new ArrayList<>());
-        setLooseShipList(new ArrayList<>());
-        setContainerShipList(new ArrayList<>());
-        liquidShipListToSave = new ArrayList<>();
-        looseShipListToSave = new ArrayList<>();
-        containerShipListToSave = new ArrayList<>();
+        setLiquidShipList(new CopyOnWriteArrayList<>());
+        setLooseShipList(new CopyOnWriteArrayList<>());
+        setContainerShipList(new CopyOnWriteArrayList<>());
+        liquidShipListToSave = new CopyOnWriteArrayList<>();
+        looseShipListToSave = new CopyOnWriteArrayList<>();
+        containerShipListToSave = new CopyOnWriteArrayList<>();
         statisticsList = new ArrayList<>();
 
         for (Ship ship: table.getShipList()) {
@@ -88,115 +87,211 @@ public class Port {
             containerShipListToSave.add(i, new Ship(containerShipList.get(i)));
         }
     }
-    static class UnloadTask implements Runnable {
-        private final ArrayList<Ship> shipList;
+    static class UnloadTask {
+        private final CopyOnWriteArrayList<Ship> shipList;
         private final int countCranes;
         private final Statistics statistics;
         private final LinkedList<Statistics.ShipStat> statShipList;
 
-        public UnloadTask(ArrayList<Ship> shipList, int countCranes, Statistics statistics,
+        public UnloadTask(CopyOnWriteArrayList<Ship> shipList, int countCranes, Statistics statistics,
                           LinkedList<Statistics.ShipStat> statShipList) {
             this.shipList = shipList;
             this.countCranes = countCranes;
             this.statistics = statistics;
             this.statShipList = statShipList;
         }
-
+        static class TimeSynchronizer {
+            public TimeSynchronizer(int numberOfCranes, int numberOfShips) {
+                this.numberOfCranes = numberOfCranes;
+                time = 0;
+                endTime = TimeTable.daysPerMonth * TimeTable.minutesPerDay;
+                freeWorkspace = new CopyOnWriteArrayList<>();
+                for (int i = 0; i < numberOfShips; i++) {
+                    freeWorkspace.add(i, 2);
+                }
+            }
+            public volatile int time;
+            private volatile int numberOfCompletedCranes;
+            private volatile int numberOfCranes;
+            private volatile int endTime;
+            private volatile CopyOnWriteArrayList<Integer> freeWorkspace;
+            public synchronized void complete() {
+                numberOfCompletedCranes += 1;
+            }
+            public void update() {
+                while (numberOfCompletedCranes != numberOfCranes) {
+                }
+                numberOfCompletedCranes = 0;
+                for (int i = 0; i < freeWorkspace.size(); i++) {
+                    if (freeWorkspace.get(i) >= 0) {
+                        freeWorkspace.set(i, 2);
+                    }
+                }
+                time++;
+            }
+            public boolean endWork() {
+                return time >= endTime;
+            }
+        }
         static class Crane implements Runnable {
-            private final ArrayList<Ship> shipList;
+            private final CopyOnWriteArrayList<Ship> shipList;
             private final Statistics statistics;
-            private int time;
-            private final ArrayList<Integer> freeWorkspace;
-
-            Crane(ArrayList<Ship> shipList, Statistics statistics, ArrayList<Integer> freeWorkspace) {
+            private final TimeSynchronizer timer;
+            Crane(CopyOnWriteArrayList<Ship> shipList, Statistics statistics, TimeSynchronizer timer) {
                 this.shipList = shipList;
                 this.statistics = statistics;
-                this.time = 0;
-                this.freeWorkspace = freeWorkspace;
+                this.timer = timer;
             }
 
             @Override
             public void run() {
-                int currentNumber = -1;
-                for (int shipNumber = 0; shipNumber < shipList.size(); shipNumber++) {
-                    int currentShipTime = shipList.get(shipNumber).getDay() * TimeTable.minutesPerDay +
-                            shipList.get(shipNumber).getTime();
-                    if (currentShipTime < time && freeWorkspace.get(shipNumber) > 0) {
-                        currentNumber = shipNumber;
-                        freeWorkspace.set(shipNumber, freeWorkspace.get(shipNumber) - 1);
-                        break;
+                int time = -1;
+                while (!timer.endWork()) {
+                    while (time == timer.time) {
                     }
-                }
-                if (currentNumber == -1) {
-                    time++;
-                    return;
-                }
-                if (shipList.get(currentNumber).getUnloadTime() == 0) {
-                    int delayTime = (time - shipList.get(currentNumber).getDay() * TimeTable.minutesPerDay +
-                            shipList.get(currentNumber).getTime()) -
-                            (int) (shipList.get(currentNumber).getCargoWeight() / craneLiquidSpeed);
-                    statistics.averageDelayTime += delayTime; // statistics
-                    statistics.maxDelayTime = Math.max(statistics.maxDelayTime, delayTime); // statistics
-                    if (delayTime > 0) {
-                        statistics.sumCost += delayTime / TimeTable.minutesPerHour * waitingCostPerHour;
-                    }
-                    statistics.get(shipList.get(currentNumber).getName()).unloadTime =
-                            (time - statistics.get(
-                                    shipList.get(currentNumber).getName()).startUnloadTime); //statistic
-                    int countInQueue = 0;
-                    CopyOnWriteArrayList<Ship> tmpList = new CopyOnWriteArrayList<>(shipList);
-                    for (Ship ship : tmpList) {
-                        if (statistics.get(ship.getName()).arrivalTime < time &&
-                                statistics.get(ship.getName()).startUnloadTime == 0) {
-                            countInQueue++;
+                    time = timer.time;
+                    int currentNumber = -1;
+                    for (int shipNumber = 0; shipNumber < shipList.size(); shipNumber++) {
+                        int currentShipTime = shipList.get(shipNumber).getDay() * TimeTable.minutesPerDay +
+                                shipList.get(shipNumber).getTime();
+                        if (currentShipTime < time && timer.freeWorkspace.get(shipNumber) > 0) {
+                            if (shipList.get(shipNumber).getUnloadTime() <= 1) {
+                                timer.freeWorkspace.set(shipNumber, 0);
+                            } else {
+                                timer.freeWorkspace.set(shipNumber, timer.freeWorkspace.get(shipNumber) - 1);
+                            }
+                            currentNumber = shipNumber;
+                            break;
                         }
-                    } //statistics
-                    statistics.averageQueueSize += countInQueue; //statistics
-                    shipList.remove(currentNumber);
-                    statistics.UnloadCount++;
-                    time++;
-                    return;
+                    }
+                    if (currentNumber == -1) {
+                        timer.complete();
+                        continue;
+                    }
+                    synchronized (timer.freeWorkspace) {
+                        if (shipList.get(currentNumber).getUnloadTime() <= 0) {
+                            if (timer.freeWorkspace.get(currentNumber) == -1) {
+                                timer.complete();
+                                continue;
+                            } else {
+                                timer.freeWorkspace.set(currentNumber, -1);
+                            }
+                            int delayTime = (time - shipList.get(currentNumber).getDay() * TimeTable.minutesPerDay +
+                                    shipList.get(currentNumber).getTime()) -
+                                    (int) (shipList.get(currentNumber).getCargoWeight() / craneLiquidSpeed);
+                            statistics.averageDelayTime += delayTime; // statistics
+                            statistics.maxDelayTime = Math.max(statistics.maxDelayTime, delayTime); // statistics
+                            if (delayTime > 0) {
+                                statistics.sumCost += delayTime / TimeTable.minutesPerHour * waitingCostPerHour;
+                            }
+                            statistics.get(shipList.get(currentNumber).getName()).unloadTime =
+                                    (time - statistics.get(
+                                            shipList.get(currentNumber).getName()).startUnloadTime); //statistic
+                            int countInQueue = 0;
+                            for (Ship ship : shipList) {
+                                if (statistics.get(ship.getName()).arrivalTime < time &&
+                                        statistics.get(ship.getName()).startUnloadTime == 0) {
+                                    countInQueue++;
+                                }
+                            } //statistics
+                            statistics.averageQueueSize += countInQueue; //statistics
+                            //shipList.remove(currentNumber);
+                            //freeWorkspace.remove(currentNumber);
+                            statistics.UnloadCount++;
+                            timer.complete();
+                            continue;
+                        }
+                    }
+                    if (statistics.get(shipList.get(currentNumber).getName()).startUnloadTime == 0) {
+                        statistics.get(shipList.get(currentNumber).getName()).startUnloadTime = time;
+                        statistics.get(shipList.get(currentNumber).getName()).waitingTime =
+                                time - statistics.get(shipList.get(currentNumber).getName()).arrivalTime;
+                    } //statistic
+                    if (shipList.get(currentNumber).getUnloadTime() > 1) {
+                        shipList.get(currentNumber).setUnloadTime(
+                                shipList.get(currentNumber).getUnloadTime() - 1);
+                    } else if (shipList.get(currentNumber).getUnloadTime() == 1) {
+                        shipList.get(currentNumber).setUnloadTime(0);
+                    }
+                    //freeWorkspace.set(currentNumber, freeWorkspace.get(currentNumber) + 1);
+                    timer.complete();
                 }
-                if (statistics.get(shipList.get(currentNumber).getName()).startUnloadTime == 0) {
-                    statistics.get(shipList.get(currentNumber).getName()).startUnloadTime = time;
-                    statistics.get(shipList.get(currentNumber).getName()).waitingTime =
-                            time - statistics.get(shipList.get(currentNumber).getName()).arrivalTime;
-                } //statistic
-                if (shipList.get(currentNumber).getUnloadTime() > 0) {
-                    shipList.get(currentNumber).setUnloadTime(
-                            shipList.get(currentNumber).getUnloadTime() - 1);
-                }
-                time++;
+                /*for (int time = 0; time < TimeTable.daysPerMonth * TimeTable.minutesPerDay; time++) {
+                    int currentNumber = -1;
+                    for (int shipNumber = 0; shipNumber < shipList.size(); shipNumber++) {
+                        int currentShipTime = shipList.get(shipNumber).getDay() * TimeTable.minutesPerDay +
+                                shipList.get(shipNumber).getTime();
+                        if (currentShipTime < time && freeWorkspace.get(shipNumber) > 0) {
+                            currentNumber = shipNumber;
+                            freeWorkspace.set(currentNumber, freeWorkspace.get(currentNumber) - 1);
+                            break;
+                        }
+                    }
+                    if (currentNumber == -1) {
+                        continue;
+                    }
+                    if (shipList.get(currentNumber).getUnloadTime() == 0) {
+                        int delayTime = (time - shipList.get(currentNumber).getDay() * TimeTable.minutesPerDay +
+                                shipList.get(currentNumber).getTime()) -
+                                (int) (shipList.get(currentNumber).getCargoWeight() / craneLiquidSpeed);
+                        statistics.averageDelayTime += delayTime; // statistics
+                        statistics.maxDelayTime = Math.max(statistics.maxDelayTime, delayTime); // statistics
+                        if (delayTime > 0) {
+                            statistics.sumCost += delayTime / TimeTable.minutesPerHour * waitingCostPerHour;
+                        }
+                        statistics.get(shipList.get(currentNumber).getName()).unloadTime =
+                                (time - statistics.get(
+                                        shipList.get(currentNumber).getName()).startUnloadTime); //statistic
+                        int countInQueue = 0;
+                        for (Ship ship : shipList) {
+                            if (statistics.get(ship.getName()).arrivalTime < time &&
+                                    statistics.get(ship.getName()).startUnloadTime == 0) {
+                                countInQueue++;
+                            }
+                        } //statistics
+                        statistics.averageQueueSize += countInQueue; //statistics
+                        shipList.remove(currentNumber);
+                        freeWorkspace.remove(currentNumber);
+                        statistics.UnloadCount++;
+                        continue;
+                    }
+                    if (statistics.get(shipList.get(currentNumber).getName()).startUnloadTime == 0) {
+                        statistics.get(shipList.get(currentNumber).getName()).startUnloadTime = time;
+                        statistics.get(shipList.get(currentNumber).getName()).waitingTime =
+                                time - statistics.get(shipList.get(currentNumber).getName()).arrivalTime;
+                    } //statistic
+                    if (shipList.get(currentNumber).getUnloadTime() > 0) {
+                        shipList.get(currentNumber).setUnloadTime(
+                                shipList.get(currentNumber).getUnloadTime() - 1);
+                    }
+                    freeWorkspace.set(currentNumber, freeWorkspace.get(currentNumber) + 1);
+                }*/
             }
         }
-        @Override
+
         public void run() {
             for (Ship ship : shipList) {
                 statShipList.addLast(new Statistics.ShipStat());
                 statShipList.getLast().name = ship.getName();
                 statShipList.getLast().arrivalTime = ship.getDay() * TimeTable.minutesPerDay + ship.getTime();
             } //statistic
-            ArrayList<Integer> freeWorkspace = new ArrayList<>();
-            for (int i = 0; i < shipList.size(); i++) {
-                freeWorkspace.add(i, 2);
-            }
-            LinkedList<Thread> threads = new LinkedList<>();
+            CopyOnWriteArrayList<Thread> threads = new CopyOnWriteArrayList<>();
+            TimeSynchronizer timer = new TimeSynchronizer(countCranes, shipList.size());
             for (int i = 0; i < countCranes; i++) {
-                threads.addLast(new Thread(new Crane(shipList, statistics, freeWorkspace)));
+                threads.add(new Thread(new Crane(shipList, statistics, timer)));
             }
-            for (int time = 0; time < TimeTable.daysPerMonth * TimeTable.minutesPerDay; time++) {
-                for (int i = 0; i < countCranes; i++) {
-                    threads.get(i).run();
-                }
-                for (int i = 0; i < countCranes; i++) {
-                    try {
-                        threads.get(i).join();
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
-                }
-                for (int i = 0; i < freeWorkspace.size(); i++) {
-                    freeWorkspace.set(i, 2);
+            for (int i = 0; i < countCranes; i++) {
+                threads.get(i).start();
+            }
+            while (!timer.endWork()) {
+                timer.update();
+                //System.out.println(timer.time);
+            }
+            for (int i = 0; i < countCranes; i++) {
+                try {
+                    threads.get(i).join();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
                 }
             }
         }
@@ -210,19 +305,15 @@ public class Port {
                     statistics.countOfLiquidCrane = a;
                     statistics.countOfLooseCrane = b;
                     statistics.countOfContainerCrane = c;
-                    Thread thread1 = new Thread(new UnloadTask(liquidShipList, a, statistics, statistics.statLiquidList));
-                    Thread thread2 = new Thread(new UnloadTask(looseShipList, b, statistics, statistics.statLooseList));
-                    Thread thread3 = new Thread(new UnloadTask(containerShipList, c, statistics, statistics.statContainerList));
-                    thread1.start();
-                    thread2.start();
-                    thread3.start();
-                    try {
-                        thread1.join();
-                        thread2.join();
-                        thread3.join();
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
+                    /////поточность по типам убрать, вижул вм вроде для просмотра многопоточности, типы очереди нормальные для потоков
+                    UnloadTask unloadTask1 = new UnloadTask(liquidShipList, a, statistics, statistics.statLiquidList);
+                    UnloadTask unloadTask2 = new UnloadTask(looseShipList, b, statistics, statistics.statLooseList);
+                    UnloadTask unloadTask3 = new UnloadTask(containerShipList, c, statistics, statistics.statContainerList);
+
+                    unloadTask1.run();
+                    unloadTask2.run();
+                    unloadTask3.run();
+
                     statistics.averageDelayTime /= (statistics.UnloadCount);
                     statistics.averageQueueSize /= (statistics.UnloadCount);
                     statistics.printInformation();
@@ -256,22 +347,22 @@ public class Port {
         return statisticsList.get(minIndex);
     }
 
-    public ArrayList<Ship> getLiquidShipList() {
+    public CopyOnWriteArrayList<Ship> getLiquidShipList() {
         return liquidShipList;
     }
-    public void setLiquidShipList(ArrayList<Ship> liquidShipList) {
+    public void setLiquidShipList(CopyOnWriteArrayList<Ship> liquidShipList) {
         this.liquidShipList = liquidShipList;
     }
-    public ArrayList<Ship> getLooseShipList() {
+    public CopyOnWriteArrayList<Ship> getLooseShipList() {
         return looseShipList;
     }
-    public void setLooseShipList(ArrayList<Ship> looseShipList) {
+    public void setLooseShipList(CopyOnWriteArrayList<Ship> looseShipList) {
         this.looseShipList = looseShipList;
     }
-    public ArrayList<Ship> getContainerShipList() {
+    public CopyOnWriteArrayList<Ship> getContainerShipList() {
         return containerShipList;
     }
-    public void setContainerShipList(ArrayList<Ship> containerShipList) {
+    public void setContainerShipList(CopyOnWriteArrayList<Ship> containerShipList) {
         this.containerShipList = containerShipList;
     }
 }

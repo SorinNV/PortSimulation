@@ -16,7 +16,7 @@ public class Main {
         Interaction.printJson("timetable", table);
         TimeTable rTimeTable = new TimeTable();
         Interaction.readJson("timetable", rTimeTable);
-        Interaction.readConsole(rTimeTable);
+        //Interaction.readConsole(rTimeTable);
         Port port = new Port(rTimeTable);
         port.run(6, 6, 6);
         Statistics statistics = port.getBestStatistics();

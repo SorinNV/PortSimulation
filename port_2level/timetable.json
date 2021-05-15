@@ -1,0 +1,2803 @@
+{
+  "shipList" : [ {
+    "name" : "ship0",
+    "cargoWeight" : 91,
+    "day" : 0,
+    "time" : 0,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship1",
+    "cargoWeight" : 54,
+    "day" : 0,
+    "time" : 108,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship2",
+    "cargoWeight" : 84,
+    "day" : 0,
+    "time" : 216,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship3",
+    "cargoWeight" : 10,
+    "day" : 0,
+    "time" : 324,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship4",
+    "cargoWeight" : 85,
+    "day" : 0,
+    "time" : 433,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship5",
+    "cargoWeight" : 19,
+    "day" : 0,
+    "time" : 541,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship6",
+    "cargoWeight" : 90,
+    "day" : 0,
+    "time" : 649,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship7",
+    "cargoWeight" : 5,
+    "day" : 0,
+    "time" : 757,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship8",
+    "cargoWeight" : 46,
+    "day" : 0,
+    "time" : 866,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship9",
+    "cargoWeight" : 13,
+    "day" : 0,
+    "time" : 974,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship10",
+    "cargoWeight" : 80,
+    "day" : 0,
+    "time" : 1082,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship11",
+    "cargoWeight" : 84,
+    "day" : 0,
+    "time" : 1190,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship12",
+    "cargoWeight" : 21,
+    "day" : 0,
+    "time" : 1299,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship13",
+    "cargoWeight" : 65,
+    "day" : 0,
+    "time" : 1407,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship14",
+    "cargoWeight" : 86,
+    "day" : 1,
+    "time" : 75,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship15",
+    "cargoWeight" : 44,
+    "day" : 1,
+    "time" : 184,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship16",
+    "cargoWeight" : 82,
+    "day" : 1,
+    "time" : 292,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship17",
+    "cargoWeight" : 88,
+    "day" : 1,
+    "time" : 400,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship18",
+    "cargoWeight" : 56,
+    "day" : 1,
+    "time" : 508,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship19",
+    "cargoWeight" : 49,
+    "day" : 1,
+    "time" : 617,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship20",
+    "cargoWeight" : 0,
+    "day" : 1,
+    "time" : 725,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship21",
+    "cargoWeight" : 30,
+    "day" : 1,
+    "time" : 833,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship22",
+    "cargoWeight" : 83,
+    "day" : 1,
+    "time" : 941,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship23",
+    "cargoWeight" : 75,
+    "day" : 1,
+    "time" : 1050,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship24",
+    "cargoWeight" : 47,
+    "day" : 1,
+    "time" : 1158,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship25",
+    "cargoWeight" : 25,
+    "day" : 1,
+    "time" : 1266,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship26",
+    "cargoWeight" : 26,
+    "day" : 1,
+    "time" : 1375,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship27",
+    "cargoWeight" : 23,
+    "day" : 2,
+    "time" : 43,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship28",
+    "cargoWeight" : 45,
+    "day" : 2,
+    "time" : 151,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship29",
+    "cargoWeight" : 10,
+    "day" : 2,
+    "time" : 259,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship30",
+    "cargoWeight" : 79,
+    "day" : 2,
+    "time" : 368,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship31",
+    "cargoWeight" : 12,
+    "day" : 2,
+    "time" : 476,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship32",
+    "cargoWeight" : 92,
+    "day" : 2,
+    "time" : 584,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship33",
+    "cargoWeight" : 42,
+    "day" : 2,
+    "time" : 692,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship34",
+    "cargoWeight" : 42,
+    "day" : 2,
+    "time" : 801,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship35",
+    "cargoWeight" : 5,
+    "day" : 2,
+    "time" : 909,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship36",
+    "cargoWeight" : 75,
+    "day" : 2,
+    "time" : 1017,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship37",
+    "cargoWeight" : 31,
+    "day" : 2,
+    "time" : 1126,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship38",
+    "cargoWeight" : 37,
+    "day" : 2,
+    "time" : 1234,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship39",
+    "cargoWeight" : 90,
+    "day" : 2,
+    "time" : 1342,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship40",
+    "cargoWeight" : 23,
+    "day" : 3,
+    "time" : 10,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship41",
+    "cargoWeight" : 70,
+    "day" : 3,
+    "time" : 119,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship42",
+    "cargoWeight" : 49,
+    "day" : 3,
+    "time" : 227,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship43",
+    "cargoWeight" : 35,
+    "day" : 3,
+    "time" : 335,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship44",
+    "cargoWeight" : 12,
+    "day" : 3,
+    "time" : 443,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship45",
+    "cargoWeight" : 31,
+    "day" : 3,
+    "time" : 552,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship46",
+    "cargoWeight" : 22,
+    "day" : 3,
+    "time" : 660,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship47",
+    "cargoWeight" : 73,
+    "day" : 3,
+    "time" : 768,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship48",
+    "cargoWeight" : 42,
+    "day" : 3,
+    "time" : 876,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship49",
+    "cargoWeight" : 92,
+    "day" : 3,
+    "time" : 985,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship50",
+    "cargoWeight" : 75,
+    "day" : 3,
+    "time" : 1093,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship51",
+    "cargoWeight" : 1,
+    "day" : 3,
+    "time" : 1201,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship52",
+    "cargoWeight" : 48,
+    "day" : 3,
+    "time" : 1310,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship53",
+    "cargoWeight" : 48,
+    "day" : 3,
+    "time" : 1418,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship54",
+    "cargoWeight" : 52,
+    "day" : 4,
+    "time" : 86,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship55",
+    "cargoWeight" : 61,
+    "day" : 4,
+    "time" : 194,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship56",
+    "cargoWeight" : 64,
+    "day" : 4,
+    "time" : 303,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship57",
+    "cargoWeight" : 4,
+    "day" : 4,
+    "time" : 411,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship58",
+    "cargoWeight" : 50,
+    "day" : 4,
+    "time" : 519,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship59",
+    "cargoWeight" : 89,
+    "day" : 4,
+    "time" : 627,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship60",
+    "cargoWeight" : 3,
+    "day" : 4,
+    "time" : 736,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship61",
+    "cargoWeight" : 44,
+    "day" : 4,
+    "time" : 844,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship62",
+    "cargoWeight" : 44,
+    "day" : 4,
+    "time" : 952,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship63",
+    "cargoWeight" : 88,
+    "day" : 4,
+    "time" : 1061,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship64",
+    "cargoWeight" : 49,
+    "day" : 4,
+    "time" : 1169,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship65",
+    "cargoWeight" : 23,
+    "day" : 4,
+    "time" : 1277,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship66",
+    "cargoWeight" : 40,
+    "day" : 4,
+    "time" : 1385,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship67",
+    "cargoWeight" : 76,
+    "day" : 5,
+    "time" : 54,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship68",
+    "cargoWeight" : 84,
+    "day" : 5,
+    "time" : 162,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship69",
+    "cargoWeight" : 68,
+    "day" : 5,
+    "time" : 270,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship70",
+    "cargoWeight" : 88,
+    "day" : 5,
+    "time" : 378,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship71",
+    "cargoWeight" : 39,
+    "day" : 5,
+    "time" : 487,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship72",
+    "cargoWeight" : 53,
+    "day" : 5,
+    "time" : 595,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship73",
+    "cargoWeight" : 93,
+    "day" : 5,
+    "time" : 703,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship74",
+    "cargoWeight" : 67,
+    "day" : 5,
+    "time" : 812,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship75",
+    "cargoWeight" : 25,
+    "day" : 5,
+    "time" : 920,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship76",
+    "cargoWeight" : 5,
+    "day" : 5,
+    "time" : 1028,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship77",
+    "cargoWeight" : 37,
+    "day" : 5,
+    "time" : 1136,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship78",
+    "cargoWeight" : 63,
+    "day" : 5,
+    "time" : 1245,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship79",
+    "cargoWeight" : 89,
+    "day" : 5,
+    "time" : 1353,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship80",
+    "cargoWeight" : 25,
+    "day" : 6,
+    "time" : 21,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship81",
+    "cargoWeight" : 35,
+    "day" : 6,
+    "time" : 129,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship82",
+    "cargoWeight" : 30,
+    "day" : 6,
+    "time" : 238,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship83",
+    "cargoWeight" : 73,
+    "day" : 6,
+    "time" : 346,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship84",
+    "cargoWeight" : 74,
+    "day" : 6,
+    "time" : 454,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship85",
+    "cargoWeight" : 9,
+    "day" : 6,
+    "time" : 563,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship86",
+    "cargoWeight" : 37,
+    "day" : 6,
+    "time" : 671,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship87",
+    "cargoWeight" : 57,
+    "day" : 6,
+    "time" : 779,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship88",
+    "cargoWeight" : 57,
+    "day" : 6,
+    "time" : 887,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship89",
+    "cargoWeight" : 67,
+    "day" : 6,
+    "time" : 996,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship90",
+    "cargoWeight" : 44,
+    "day" : 6,
+    "time" : 1104,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship91",
+    "cargoWeight" : 93,
+    "day" : 6,
+    "time" : 1212,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship92",
+    "cargoWeight" : 43,
+    "day" : 6,
+    "time" : 1320,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship93",
+    "cargoWeight" : 54,
+    "day" : 6,
+    "time" : 1429,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship94",
+    "cargoWeight" : 70,
+    "day" : 7,
+    "time" : 97,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship95",
+    "cargoWeight" : 92,
+    "day" : 7,
+    "time" : 205,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship96",
+    "cargoWeight" : 18,
+    "day" : 7,
+    "time" : 313,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship97",
+    "cargoWeight" : 89,
+    "day" : 7,
+    "time" : 422,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship98",
+    "cargoWeight" : 21,
+    "day" : 7,
+    "time" : 530,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship99",
+    "cargoWeight" : 60,
+    "day" : 7,
+    "time" : 638,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship100",
+    "cargoWeight" : 19,
+    "day" : 7,
+    "time" : 747,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship101",
+    "cargoWeight" : 67,
+    "day" : 7,
+    "time" : 855,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship102",
+    "cargoWeight" : 32,
+    "day" : 7,
+    "time" : 963,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship103",
+    "cargoWeight" : 44,
+    "day" : 7,
+    "time" : 1071,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship104",
+    "cargoWeight" : 41,
+    "day" : 7,
+    "time" : 1180,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship105",
+    "cargoWeight" : 89,
+    "day" : 7,
+    "time" : 1288,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship106",
+    "cargoWeight" : 32,
+    "day" : 7,
+    "time" : 1396,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship107",
+    "cargoWeight" : 1,
+    "day" : 8,
+    "time" : 64,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship108",
+    "cargoWeight" : 77,
+    "day" : 8,
+    "time" : 173,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship109",
+    "cargoWeight" : 72,
+    "day" : 8,
+    "time" : 281,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship110",
+    "cargoWeight" : 40,
+    "day" : 8,
+    "time" : 389,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship111",
+    "cargoWeight" : 94,
+    "day" : 8,
+    "time" : 498,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship112",
+    "cargoWeight" : 83,
+    "day" : 8,
+    "time" : 606,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship113",
+    "cargoWeight" : 58,
+    "day" : 8,
+    "time" : 714,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship114",
+    "cargoWeight" : 53,
+    "day" : 8,
+    "time" : 822,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship115",
+    "cargoWeight" : 49,
+    "day" : 8,
+    "time" : 931,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship116",
+    "cargoWeight" : 87,
+    "day" : 8,
+    "time" : 1039,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship117",
+    "cargoWeight" : 84,
+    "day" : 8,
+    "time" : 1147,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship118",
+    "cargoWeight" : 42,
+    "day" : 8,
+    "time" : 1255,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship119",
+    "cargoWeight" : 88,
+    "day" : 8,
+    "time" : 1364,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship120",
+    "cargoWeight" : 45,
+    "day" : 9,
+    "time" : 32,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship121",
+    "cargoWeight" : 56,
+    "day" : 9,
+    "time" : 140,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship122",
+    "cargoWeight" : 78,
+    "day" : 9,
+    "time" : 249,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship123",
+    "cargoWeight" : 15,
+    "day" : 9,
+    "time" : 357,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship124",
+    "cargoWeight" : 53,
+    "day" : 9,
+    "time" : 465,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship125",
+    "cargoWeight" : 51,
+    "day" : 9,
+    "time" : 573,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship126",
+    "cargoWeight" : 89,
+    "day" : 9,
+    "time" : 682,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship127",
+    "cargoWeight" : 8,
+    "day" : 9,
+    "time" : 790,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship128",
+    "cargoWeight" : 24,
+    "day" : 9,
+    "time" : 898,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship129",
+    "cargoWeight" : 46,
+    "day" : 9,
+    "time" : 1006,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship130",
+    "cargoWeight" : 20,
+    "day" : 9,
+    "time" : 1115,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship131",
+    "cargoWeight" : 25,
+    "day" : 9,
+    "time" : 1223,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship132",
+    "cargoWeight" : 71,
+    "day" : 9,
+    "time" : 1331,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship133",
+    "cargoWeight" : 23,
+    "day" : 9,
+    "time" : 1439,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship134",
+    "cargoWeight" : 88,
+    "day" : 10,
+    "time" : 108,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship135",
+    "cargoWeight" : 97,
+    "day" : 10,
+    "time" : 216,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship136",
+    "cargoWeight" : 75,
+    "day" : 10,
+    "time" : 324,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship137",
+    "cargoWeight" : 27,
+    "day" : 10,
+    "time" : 433,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship138",
+    "cargoWeight" : 90,
+    "day" : 10,
+    "time" : 541,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship139",
+    "cargoWeight" : 14,
+    "day" : 10,
+    "time" : 649,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship140",
+    "cargoWeight" : 70,
+    "day" : 10,
+    "time" : 757,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship141",
+    "cargoWeight" : 79,
+    "day" : 10,
+    "time" : 866,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship142",
+    "cargoWeight" : 2,
+    "day" : 10,
+    "time" : 974,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship143",
+    "cargoWeight" : 20,
+    "day" : 10,
+    "time" : 1082,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship144",
+    "cargoWeight" : 43,
+    "day" : 10,
+    "time" : 1190,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship145",
+    "cargoWeight" : 38,
+    "day" : 10,
+    "time" : 1299,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship146",
+    "cargoWeight" : 40,
+    "day" : 10,
+    "time" : 1407,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship147",
+    "cargoWeight" : 39,
+    "day" : 11,
+    "time" : 75,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship148",
+    "cargoWeight" : 14,
+    "day" : 11,
+    "time" : 184,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship149",
+    "cargoWeight" : 10,
+    "day" : 11,
+    "time" : 292,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship150",
+    "cargoWeight" : 44,
+    "day" : 11,
+    "time" : 400,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship151",
+    "cargoWeight" : 14,
+    "day" : 11,
+    "time" : 508,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship152",
+    "cargoWeight" : 96,
+    "day" : 11,
+    "time" : 617,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship153",
+    "cargoWeight" : 59,
+    "day" : 11,
+    "time" : 725,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship154",
+    "cargoWeight" : 32,
+    "day" : 11,
+    "time" : 833,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship155",
+    "cargoWeight" : 23,
+    "day" : 11,
+    "time" : 941,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship156",
+    "cargoWeight" : 6,
+    "day" : 11,
+    "time" : 1050,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship157",
+    "cargoWeight" : 83,
+    "day" : 11,
+    "time" : 1158,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship158",
+    "cargoWeight" : 15,
+    "day" : 11,
+    "time" : 1266,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship159",
+    "cargoWeight" : 21,
+    "day" : 11,
+    "time" : 1375,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship160",
+    "cargoWeight" : 97,
+    "day" : 12,
+    "time" : 43,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship161",
+    "cargoWeight" : 19,
+    "day" : 12,
+    "time" : 151,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship162",
+    "cargoWeight" : 97,
+    "day" : 12,
+    "time" : 259,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship163",
+    "cargoWeight" : 33,
+    "day" : 12,
+    "time" : 368,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship164",
+    "cargoWeight" : 28,
+    "day" : 12,
+    "time" : 476,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship165",
+    "cargoWeight" : 11,
+    "day" : 12,
+    "time" : 584,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship166",
+    "cargoWeight" : 81,
+    "day" : 12,
+    "time" : 692,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship167",
+    "cargoWeight" : 75,
+    "day" : 12,
+    "time" : 801,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship168",
+    "cargoWeight" : 64,
+    "day" : 12,
+    "time" : 909,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship169",
+    "cargoWeight" : 39,
+    "day" : 12,
+    "time" : 1017,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship170",
+    "cargoWeight" : 48,
+    "day" : 12,
+    "time" : 1126,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship171",
+    "cargoWeight" : 67,
+    "day" : 12,
+    "time" : 1234,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship172",
+    "cargoWeight" : 82,
+    "day" : 12,
+    "time" : 1342,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship173",
+    "cargoWeight" : 82,
+    "day" : 13,
+    "time" : 10,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship174",
+    "cargoWeight" : 9,
+    "day" : 13,
+    "time" : 119,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship175",
+    "cargoWeight" : 12,
+    "day" : 13,
+    "time" : 227,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship176",
+    "cargoWeight" : 71,
+    "day" : 13,
+    "time" : 335,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship177",
+    "cargoWeight" : 81,
+    "day" : 13,
+    "time" : 443,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship178",
+    "cargoWeight" : 64,
+    "day" : 13,
+    "time" : 552,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship179",
+    "cargoWeight" : 18,
+    "day" : 13,
+    "time" : 660,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship180",
+    "cargoWeight" : 59,
+    "day" : 13,
+    "time" : 768,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship181",
+    "cargoWeight" : 39,
+    "day" : 13,
+    "time" : 876,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship182",
+    "cargoWeight" : 72,
+    "day" : 13,
+    "time" : 985,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship183",
+    "cargoWeight" : 88,
+    "day" : 13,
+    "time" : 1093,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship184",
+    "cargoWeight" : 28,
+    "day" : 13,
+    "time" : 1201,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship185",
+    "cargoWeight" : 93,
+    "day" : 13,
+    "time" : 1310,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship186",
+    "cargoWeight" : 80,
+    "day" : 13,
+    "time" : 1418,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship187",
+    "cargoWeight" : 11,
+    "day" : 14,
+    "time" : 86,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship188",
+    "cargoWeight" : 55,
+    "day" : 14,
+    "time" : 194,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship189",
+    "cargoWeight" : 91,
+    "day" : 14,
+    "time" : 303,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship190",
+    "cargoWeight" : 82,
+    "day" : 14,
+    "time" : 411,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship191",
+    "cargoWeight" : 10,
+    "day" : 14,
+    "time" : 519,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship192",
+    "cargoWeight" : 51,
+    "day" : 14,
+    "time" : 627,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship193",
+    "cargoWeight" : 76,
+    "day" : 14,
+    "time" : 736,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship194",
+    "cargoWeight" : 86,
+    "day" : 14,
+    "time" : 844,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship195",
+    "cargoWeight" : 73,
+    "day" : 14,
+    "time" : 952,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship196",
+    "cargoWeight" : 15,
+    "day" : 14,
+    "time" : 1061,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship197",
+    "cargoWeight" : 11,
+    "day" : 14,
+    "time" : 1169,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship198",
+    "cargoWeight" : 61,
+    "day" : 14,
+    "time" : 1277,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship199",
+    "cargoWeight" : 49,
+    "day" : 14,
+    "time" : 1385,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship200",
+    "cargoWeight" : 87,
+    "day" : 15,
+    "time" : 54,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship201",
+    "cargoWeight" : 10,
+    "day" : 15,
+    "time" : 162,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship202",
+    "cargoWeight" : 29,
+    "day" : 15,
+    "time" : 270,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship203",
+    "cargoWeight" : 47,
+    "day" : 15,
+    "time" : 378,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship204",
+    "cargoWeight" : 30,
+    "day" : 15,
+    "time" : 487,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship205",
+    "cargoWeight" : 72,
+    "day" : 15,
+    "time" : 595,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship206",
+    "cargoWeight" : 33,
+    "day" : 15,
+    "time" : 703,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship207",
+    "cargoWeight" : 85,
+    "day" : 15,
+    "time" : 812,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship208",
+    "cargoWeight" : 1,
+    "day" : 15,
+    "time" : 920,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship209",
+    "cargoWeight" : 62,
+    "day" : 15,
+    "time" : 1028,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship210",
+    "cargoWeight" : 28,
+    "day" : 15,
+    "time" : 1136,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship211",
+    "cargoWeight" : 83,
+    "day" : 15,
+    "time" : 1245,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship212",
+    "cargoWeight" : 31,
+    "day" : 15,
+    "time" : 1353,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship213",
+    "cargoWeight" : 70,
+    "day" : 16,
+    "time" : 21,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship214",
+    "cargoWeight" : 96,
+    "day" : 16,
+    "time" : 129,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship215",
+    "cargoWeight" : 83,
+    "day" : 16,
+    "time" : 238,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship216",
+    "cargoWeight" : 1,
+    "day" : 16,
+    "time" : 346,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship217",
+    "cargoWeight" : 21,
+    "day" : 16,
+    "time" : 454,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship218",
+    "cargoWeight" : 1,
+    "day" : 16,
+    "time" : 563,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship219",
+    "cargoWeight" : 70,
+    "day" : 16,
+    "time" : 671,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship220",
+    "cargoWeight" : 68,
+    "day" : 16,
+    "time" : 779,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship221",
+    "cargoWeight" : 44,
+    "day" : 16,
+    "time" : 887,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship222",
+    "cargoWeight" : 13,
+    "day" : 16,
+    "time" : 996,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship223",
+    "cargoWeight" : 89,
+    "day" : 16,
+    "time" : 1104,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship224",
+    "cargoWeight" : 45,
+    "day" : 16,
+    "time" : 1212,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship225",
+    "cargoWeight" : 61,
+    "day" : 16,
+    "time" : 1320,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship226",
+    "cargoWeight" : 50,
+    "day" : 16,
+    "time" : 1429,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship227",
+    "cargoWeight" : 59,
+    "day" : 17,
+    "time" : 97,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship228",
+    "cargoWeight" : 97,
+    "day" : 17,
+    "time" : 205,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship229",
+    "cargoWeight" : 79,
+    "day" : 17,
+    "time" : 313,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship230",
+    "cargoWeight" : 79,
+    "day" : 17,
+    "time" : 422,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship231",
+    "cargoWeight" : 36,
+    "day" : 17,
+    "time" : 530,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship232",
+    "cargoWeight" : 41,
+    "day" : 17,
+    "time" : 638,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship233",
+    "cargoWeight" : 88,
+    "day" : 17,
+    "time" : 747,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship234",
+    "cargoWeight" : 78,
+    "day" : 17,
+    "time" : 855,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship235",
+    "cargoWeight" : 66,
+    "day" : 17,
+    "time" : 963,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship236",
+    "cargoWeight" : 27,
+    "day" : 17,
+    "time" : 1071,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship237",
+    "cargoWeight" : 82,
+    "day" : 17,
+    "time" : 1180,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship238",
+    "cargoWeight" : 29,
+    "day" : 17,
+    "time" : 1288,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship239",
+    "cargoWeight" : 15,
+    "day" : 17,
+    "time" : 1396,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship240",
+    "cargoWeight" : 91,
+    "day" : 18,
+    "time" : 64,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship241",
+    "cargoWeight" : 32,
+    "day" : 18,
+    "time" : 173,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship242",
+    "cargoWeight" : 67,
+    "day" : 18,
+    "time" : 281,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship243",
+    "cargoWeight" : 23,
+    "day" : 18,
+    "time" : 389,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship244",
+    "cargoWeight" : 65,
+    "day" : 18,
+    "time" : 498,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship245",
+    "cargoWeight" : 53,
+    "day" : 18,
+    "time" : 606,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship246",
+    "cargoWeight" : 46,
+    "day" : 18,
+    "time" : 714,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship247",
+    "cargoWeight" : 73,
+    "day" : 18,
+    "time" : 822,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship248",
+    "cargoWeight" : 60,
+    "day" : 18,
+    "time" : 931,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship249",
+    "cargoWeight" : 38,
+    "day" : 18,
+    "time" : 1039,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship250",
+    "cargoWeight" : 15,
+    "day" : 18,
+    "time" : 1147,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship251",
+    "cargoWeight" : 11,
+    "day" : 18,
+    "time" : 1255,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship252",
+    "cargoWeight" : 10,
+    "day" : 18,
+    "time" : 1364,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship253",
+    "cargoWeight" : 15,
+    "day" : 19,
+    "time" : 32,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship254",
+    "cargoWeight" : 78,
+    "day" : 19,
+    "time" : 140,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship255",
+    "cargoWeight" : 43,
+    "day" : 19,
+    "time" : 249,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship256",
+    "cargoWeight" : 56,
+    "day" : 19,
+    "time" : 357,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship257",
+    "cargoWeight" : 83,
+    "day" : 19,
+    "time" : 465,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship258",
+    "cargoWeight" : 0,
+    "day" : 19,
+    "time" : 573,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship259",
+    "cargoWeight" : 61,
+    "day" : 19,
+    "time" : 682,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship260",
+    "cargoWeight" : 96,
+    "day" : 19,
+    "time" : 790,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship261",
+    "cargoWeight" : 41,
+    "day" : 19,
+    "time" : 898,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship262",
+    "cargoWeight" : 5,
+    "day" : 19,
+    "time" : 1006,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship263",
+    "cargoWeight" : 57,
+    "day" : 19,
+    "time" : 1115,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship264",
+    "cargoWeight" : 25,
+    "day" : 19,
+    "time" : 1223,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship265",
+    "cargoWeight" : 26,
+    "day" : 19,
+    "time" : 1331,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship266",
+    "cargoWeight" : 97,
+    "day" : 19,
+    "time" : 1439,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship267",
+    "cargoWeight" : 73,
+    "day" : 20,
+    "time" : 108,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship268",
+    "cargoWeight" : 53,
+    "day" : 20,
+    "time" : 216,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship269",
+    "cargoWeight" : 38,
+    "day" : 20,
+    "time" : 324,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship270",
+    "cargoWeight" : 19,
+    "day" : 20,
+    "time" : 433,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship271",
+    "cargoWeight" : 67,
+    "day" : 20,
+    "time" : 541,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship272",
+    "cargoWeight" : 36,
+    "day" : 20,
+    "time" : 649,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship273",
+    "cargoWeight" : 49,
+    "day" : 20,
+    "time" : 757,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship274",
+    "cargoWeight" : 55,
+    "day" : 20,
+    "time" : 866,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship275",
+    "cargoWeight" : 45,
+    "day" : 20,
+    "time" : 974,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship276",
+    "cargoWeight" : 4,
+    "day" : 20,
+    "time" : 1082,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship277",
+    "cargoWeight" : 11,
+    "day" : 20,
+    "time" : 1190,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship278",
+    "cargoWeight" : 79,
+    "day" : 20,
+    "time" : 1299,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship279",
+    "cargoWeight" : 17,
+    "day" : 20,
+    "time" : 1407,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship280",
+    "cargoWeight" : 48,
+    "day" : 21,
+    "time" : 75,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship281",
+    "cargoWeight" : 91,
+    "day" : 21,
+    "time" : 184,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship282",
+    "cargoWeight" : 14,
+    "day" : 21,
+    "time" : 292,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship283",
+    "cargoWeight" : 44,
+    "day" : 21,
+    "time" : 400,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship284",
+    "cargoWeight" : 90,
+    "day" : 21,
+    "time" : 508,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship285",
+    "cargoWeight" : 49,
+    "day" : 21,
+    "time" : 617,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship286",
+    "cargoWeight" : 71,
+    "day" : 21,
+    "time" : 725,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship287",
+    "cargoWeight" : 96,
+    "day" : 21,
+    "time" : 833,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship288",
+    "cargoWeight" : 26,
+    "day" : 21,
+    "time" : 941,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship289",
+    "cargoWeight" : 55,
+    "day" : 21,
+    "time" : 1050,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship290",
+    "cargoWeight" : 7,
+    "day" : 21,
+    "time" : 1158,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship291",
+    "cargoWeight" : 17,
+    "day" : 21,
+    "time" : 1266,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship292",
+    "cargoWeight" : 74,
+    "day" : 21,
+    "time" : 1375,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship293",
+    "cargoWeight" : 4,
+    "day" : 22,
+    "time" : 43,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship294",
+    "cargoWeight" : 73,
+    "day" : 22,
+    "time" : 151,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship295",
+    "cargoWeight" : 48,
+    "day" : 22,
+    "time" : 259,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship296",
+    "cargoWeight" : 13,
+    "day" : 22,
+    "time" : 368,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship297",
+    "cargoWeight" : 18,
+    "day" : 22,
+    "time" : 476,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship298",
+    "cargoWeight" : 57,
+    "day" : 22,
+    "time" : 584,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship299",
+    "cargoWeight" : 10,
+    "day" : 22,
+    "time" : 692,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship300",
+    "cargoWeight" : 7,
+    "day" : 22,
+    "time" : 801,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship301",
+    "cargoWeight" : 7,
+    "day" : 22,
+    "time" : 909,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship302",
+    "cargoWeight" : 78,
+    "day" : 22,
+    "time" : 1017,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship303",
+    "cargoWeight" : 36,
+    "day" : 22,
+    "time" : 1126,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship304",
+    "cargoWeight" : 25,
+    "day" : 22,
+    "time" : 1234,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship305",
+    "cargoWeight" : 67,
+    "day" : 22,
+    "time" : 1342,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship306",
+    "cargoWeight" : 61,
+    "day" : 23,
+    "time" : 10,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship307",
+    "cargoWeight" : 5,
+    "day" : 23,
+    "time" : 119,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship308",
+    "cargoWeight" : 11,
+    "day" : 23,
+    "time" : 227,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship309",
+    "cargoWeight" : 40,
+    "day" : 23,
+    "time" : 335,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship310",
+    "cargoWeight" : 28,
+    "day" : 23,
+    "time" : 443,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship311",
+    "cargoWeight" : 1,
+    "day" : 23,
+    "time" : 552,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship312",
+    "cargoWeight" : 90,
+    "day" : 23,
+    "time" : 660,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship313",
+    "cargoWeight" : 34,
+    "day" : 23,
+    "time" : 768,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship314",
+    "cargoWeight" : 61,
+    "day" : 23,
+    "time" : 876,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship315",
+    "cargoWeight" : 29,
+    "day" : 23,
+    "time" : 985,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship316",
+    "cargoWeight" : 16,
+    "day" : 23,
+    "time" : 1093,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship317",
+    "cargoWeight" : 13,
+    "day" : 23,
+    "time" : 1201,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship318",
+    "cargoWeight" : 52,
+    "day" : 23,
+    "time" : 1310,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship319",
+    "cargoWeight" : 49,
+    "day" : 23,
+    "time" : 1418,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship320",
+    "cargoWeight" : 70,
+    "day" : 24,
+    "time" : 86,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship321",
+    "cargoWeight" : 29,
+    "day" : 24,
+    "time" : 194,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship322",
+    "cargoWeight" : 40,
+    "day" : 24,
+    "time" : 303,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship323",
+    "cargoWeight" : 82,
+    "day" : 24,
+    "time" : 411,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship324",
+    "cargoWeight" : 8,
+    "day" : 24,
+    "time" : 519,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship325",
+    "cargoWeight" : 22,
+    "day" : 24,
+    "time" : 627,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship326",
+    "cargoWeight" : 72,
+    "day" : 24,
+    "time" : 736,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship327",
+    "cargoWeight" : 93,
+    "day" : 24,
+    "time" : 844,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship328",
+    "cargoWeight" : 32,
+    "day" : 24,
+    "time" : 952,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship329",
+    "cargoWeight" : 78,
+    "day" : 24,
+    "time" : 1061,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship330",
+    "cargoWeight" : 45,
+    "day" : 24,
+    "time" : 1169,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship331",
+    "cargoWeight" : 12,
+    "day" : 24,
+    "time" : 1277,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship332",
+    "cargoWeight" : 50,
+    "day" : 24,
+    "time" : 1385,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship333",
+    "cargoWeight" : 98,
+    "day" : 25,
+    "time" : 54,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship334",
+    "cargoWeight" : 8,
+    "day" : 25,
+    "time" : 162,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship335",
+    "cargoWeight" : 3,
+    "day" : 25,
+    "time" : 270,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship336",
+    "cargoWeight" : 72,
+    "day" : 25,
+    "time" : 378,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship337",
+    "cargoWeight" : 86,
+    "day" : 25,
+    "time" : 487,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship338",
+    "cargoWeight" : 96,
+    "day" : 25,
+    "time" : 595,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship339",
+    "cargoWeight" : 42,
+    "day" : 25,
+    "time" : 703,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship340",
+    "cargoWeight" : 51,
+    "day" : 25,
+    "time" : 812,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship341",
+    "cargoWeight" : 42,
+    "day" : 25,
+    "time" : 920,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship342",
+    "cargoWeight" : 17,
+    "day" : 25,
+    "time" : 1028,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship343",
+    "cargoWeight" : 16,
+    "day" : 25,
+    "time" : 1136,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship344",
+    "cargoWeight" : 76,
+    "day" : 25,
+    "time" : 1245,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship345",
+    "cargoWeight" : 29,
+    "day" : 25,
+    "time" : 1353,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship346",
+    "cargoWeight" : 66,
+    "day" : 26,
+    "time" : 21,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship347",
+    "cargoWeight" : 10,
+    "day" : 26,
+    "time" : 129,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship348",
+    "cargoWeight" : 84,
+    "day" : 26,
+    "time" : 238,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship349",
+    "cargoWeight" : 93,
+    "day" : 26,
+    "time" : 346,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship350",
+    "cargoWeight" : 55,
+    "day" : 26,
+    "time" : 454,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship351",
+    "cargoWeight" : 59,
+    "day" : 26,
+    "time" : 563,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship352",
+    "cargoWeight" : 46,
+    "day" : 26,
+    "time" : 671,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship353",
+    "cargoWeight" : 26,
+    "day" : 26,
+    "time" : 779,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship354",
+    "cargoWeight" : 13,
+    "day" : 26,
+    "time" : 887,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship355",
+    "cargoWeight" : 40,
+    "day" : 26,
+    "time" : 996,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship356",
+    "cargoWeight" : 93,
+    "day" : 26,
+    "time" : 1104,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship357",
+    "cargoWeight" : 88,
+    "day" : 26,
+    "time" : 1212,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship358",
+    "cargoWeight" : 67,
+    "day" : 26,
+    "time" : 1320,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship359",
+    "cargoWeight" : 88,
+    "day" : 26,
+    "time" : 1429,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship360",
+    "cargoWeight" : 10,
+    "day" : 27,
+    "time" : 97,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship361",
+    "cargoWeight" : 53,
+    "day" : 27,
+    "time" : 205,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship362",
+    "cargoWeight" : 30,
+    "day" : 27,
+    "time" : 313,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship363",
+    "cargoWeight" : 65,
+    "day" : 27,
+    "time" : 422,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship364",
+    "cargoWeight" : 17,
+    "day" : 27,
+    "time" : 530,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship365",
+    "cargoWeight" : 64,
+    "day" : 27,
+    "time" : 638,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship366",
+    "cargoWeight" : 17,
+    "day" : 27,
+    "time" : 747,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship367",
+    "cargoWeight" : 35,
+    "day" : 27,
+    "time" : 855,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship368",
+    "cargoWeight" : 68,
+    "day" : 27,
+    "time" : 963,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship369",
+    "cargoWeight" : 63,
+    "day" : 27,
+    "time" : 1071,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship370",
+    "cargoWeight" : 7,
+    "day" : 27,
+    "time" : 1180,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship371",
+    "cargoWeight" : 67,
+    "day" : 27,
+    "time" : 1288,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship372",
+    "cargoWeight" : 61,
+    "day" : 27,
+    "time" : 1396,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship373",
+    "cargoWeight" : 56,
+    "day" : 28,
+    "time" : 64,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship374",
+    "cargoWeight" : 71,
+    "day" : 28,
+    "time" : 173,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship375",
+    "cargoWeight" : 76,
+    "day" : 28,
+    "time" : 281,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship376",
+    "cargoWeight" : 11,
+    "day" : 28,
+    "time" : 389,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship377",
+    "cargoWeight" : 72,
+    "day" : 28,
+    "time" : 498,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship378",
+    "cargoWeight" : 31,
+    "day" : 28,
+    "time" : 606,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship379",
+    "cargoWeight" : 97,
+    "day" : 28,
+    "time" : 714,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship380",
+    "cargoWeight" : 57,
+    "day" : 28,
+    "time" : 822,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship381",
+    "cargoWeight" : 68,
+    "day" : 28,
+    "time" : 931,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship382",
+    "cargoWeight" : 18,
+    "day" : 28,
+    "time" : 1039,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship383",
+    "cargoWeight" : 14,
+    "day" : 28,
+    "time" : 1147,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship384",
+    "cargoWeight" : 72,
+    "day" : 28,
+    "time" : 1255,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship385",
+    "cargoWeight" : 31,
+    "day" : 28,
+    "time" : 1364,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship386",
+    "cargoWeight" : 4,
+    "day" : 29,
+    "time" : 32,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship387",
+    "cargoWeight" : 57,
+    "day" : 29,
+    "time" : 140,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship388",
+    "cargoWeight" : 45,
+    "day" : 29,
+    "time" : 249,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship389",
+    "cargoWeight" : 4,
+    "day" : 29,
+    "time" : 357,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship390",
+    "cargoWeight" : 58,
+    "day" : 29,
+    "time" : 465,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship391",
+    "cargoWeight" : 41,
+    "day" : 29,
+    "time" : 573,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship392",
+    "cargoWeight" : 54,
+    "day" : 29,
+    "time" : 682,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship393",
+    "cargoWeight" : 81,
+    "day" : 29,
+    "time" : 790,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship394",
+    "cargoWeight" : 4,
+    "day" : 29,
+    "time" : 898,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship395",
+    "cargoWeight" : 75,
+    "day" : 29,
+    "time" : 1006,
+    "unloadTime" : 0,
+    "cargoType" : "CONTAINER"
+  }, {
+    "name" : "ship396",
+    "cargoWeight" : 36,
+    "day" : 29,
+    "time" : 1115,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship397",
+    "cargoWeight" : 64,
+    "day" : 29,
+    "time" : 1223,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  }, {
+    "name" : "ship398",
+    "cargoWeight" : 44,
+    "day" : 29,
+    "time" : 1331,
+    "unloadTime" : 0,
+    "cargoType" : "LIQUID"
+  }, {
+    "name" : "ship399",
+    "cargoWeight" : 28,
+    "day" : 30,
+    "time" : 0,
+    "unloadTime" : 0,
+    "cargoType" : "LOOSE"
+  } ]
+}

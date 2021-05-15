@@ -1,0 +1,2414 @@
+{
+  "statLiquidList" : [ {
+    "name" : "ship1",
+    "arrivalTime" : 0,
+    "waitingTime" : 1,
+    "startUnloadTime" : 1,
+    "unloadTime" : 50
+  }, {
+    "name" : "ship7",
+    "arrivalTime" : 0,
+    "waitingTime" : 4,
+    "startUnloadTime" : 4,
+    "unloadTime" : 71
+  }, {
+    "name" : "ship12",
+    "arrivalTime" : 0,
+    "waitingTime" : 76,
+    "startUnloadTime" : 76,
+    "unloadTime" : 213
+  }, {
+    "name" : "ship13",
+    "arrivalTime" : 0,
+    "waitingTime" : 290,
+    "startUnloadTime" : 290,
+    "unloadTime" : 117
+  }, {
+    "name" : "ship35",
+    "arrivalTime" : 0,
+    "waitingTime" : 331,
+    "startUnloadTime" : 331,
+    "unloadTime" : 199
+  }, {
+    "name" : "ship54",
+    "arrivalTime" : 0,
+    "waitingTime" : 531,
+    "startUnloadTime" : 531,
+    "unloadTime" : 217
+  }, {
+    "name" : "ship57",
+    "arrivalTime" : 0,
+    "waitingTime" : 749,
+    "startUnloadTime" : 749,
+    "unloadTime" : 42
+  }, {
+    "name" : "ship24",
+    "arrivalTime" : 259,
+    "waitingTime" : 533,
+    "startUnloadTime" : 792,
+    "unloadTime" : 6
+  }, {
+    "name" : "ship44",
+    "arrivalTime" : 288,
+    "waitingTime" : 511,
+    "startUnloadTime" : 799,
+    "unloadTime" : 136
+  }, {
+    "name" : "ship30",
+    "arrivalTime" : 485,
+    "waitingTime" : 331,
+    "startUnloadTime" : 816,
+    "unloadTime" : 247
+  }, {
+    "name" : "ship23",
+    "arrivalTime" : 1828,
+    "waitingTime" : 1,
+    "startUnloadTime" : 1829,
+    "unloadTime" : 107
+  }, {
+    "name" : "ship42",
+    "arrivalTime" : 2644,
+    "waitingTime" : 1,
+    "startUnloadTime" : 2645,
+    "unloadTime" : 96
+  }, {
+    "name" : "ship15",
+    "arrivalTime" : 2978,
+    "waitingTime" : 1,
+    "startUnloadTime" : 2979,
+    "unloadTime" : 166
+  }, {
+    "name" : "ship105",
+    "arrivalTime" : 2979,
+    "waitingTime" : 122,
+    "startUnloadTime" : 3101,
+    "unloadTime" : 130
+  }, {
+    "name" : "ship66",
+    "arrivalTime" : 4317,
+    "waitingTime" : 1,
+    "startUnloadTime" : 4318,
+    "unloadTime" : 180
+  }, {
+    "name" : "ship20",
+    "arrivalTime" : 5106,
+    "waitingTime" : 1,
+    "startUnloadTime" : 5107,
+    "unloadTime" : 43
+  }, {
+    "name" : "ship81",
+    "arrivalTime" : 5366,
+    "waitingTime" : 1,
+    "startUnloadTime" : 5367,
+    "unloadTime" : 157
+  }, {
+    "name" : "ship108",
+    "arrivalTime" : 5487,
+    "waitingTime" : 38,
+    "startUnloadTime" : 5525,
+    "unloadTime" : 232
+  }, {
+    "name" : "ship63",
+    "arrivalTime" : 6281,
+    "waitingTime" : 1,
+    "startUnloadTime" : 6282,
+    "unloadTime" : 220
+  }, {
+    "name" : "ship104",
+    "arrivalTime" : 6390,
+    "waitingTime" : 113,
+    "startUnloadTime" : 6503,
+    "unloadTime" : 15
+  }, {
+    "name" : "ship31",
+    "arrivalTime" : 6885,
+    "waitingTime" : 1,
+    "startUnloadTime" : 6886,
+    "unloadTime" : 123
+  }, {
+    "name" : "ship47",
+    "arrivalTime" : 6945,
+    "waitingTime" : 64,
+    "startUnloadTime" : 7009,
+    "unloadTime" : 35
+  }, {
+    "name" : "ship26",
+    "arrivalTime" : 7052,
+    "waitingTime" : 1,
+    "startUnloadTime" : 7053,
+    "unloadTime" : 22
+  }, {
+    "name" : "ship101",
+    "arrivalTime" : 7095,
+    "waitingTime" : 1,
+    "startUnloadTime" : 7096,
+    "unloadTime" : 29
+  }, {
+    "name" : "ship145",
+    "arrivalTime" : 8455,
+    "waitingTime" : 1,
+    "startUnloadTime" : 8456,
+    "unloadTime" : 90
+  }, {
+    "name" : "ship134",
+    "arrivalTime" : 8574,
+    "waitingTime" : 1,
+    "startUnloadTime" : 8575,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship67",
+    "arrivalTime" : 8752,
+    "waitingTime" : 1,
+    "startUnloadTime" : 8753,
+    "unloadTime" : 53
+  }, {
+    "name" : "ship159",
+    "arrivalTime" : 9246,
+    "waitingTime" : 1,
+    "startUnloadTime" : 9247,
+    "unloadTime" : 122
+  }, {
+    "name" : "ship161",
+    "arrivalTime" : 9611,
+    "waitingTime" : 1,
+    "startUnloadTime" : 9612,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship119",
+    "arrivalTime" : 9699,
+    "waitingTime" : 1,
+    "startUnloadTime" : 9700,
+    "unloadTime" : 225
+  }, {
+    "name" : "ship113",
+    "arrivalTime" : 9778,
+    "waitingTime" : 148,
+    "startUnloadTime" : 9926,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship86",
+    "arrivalTime" : 9876,
+    "waitingTime" : 52,
+    "startUnloadTime" : 9928,
+    "unloadTime" : 34
+  }, {
+    "name" : "ship151",
+    "arrivalTime" : 9930,
+    "waitingTime" : 31,
+    "startUnloadTime" : 9961,
+    "unloadTime" : 1
+  }, {
+    "name" : "ship53",
+    "arrivalTime" : 10033,
+    "waitingTime" : 1,
+    "startUnloadTime" : 10034,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship25",
+    "arrivalTime" : 10252,
+    "waitingTime" : 1,
+    "startUnloadTime" : 10253,
+    "unloadTime" : 215
+  }, {
+    "name" : "ship48",
+    "arrivalTime" : 13655,
+    "waitingTime" : 1,
+    "startUnloadTime" : 13656,
+    "unloadTime" : 142
+  }, {
+    "name" : "ship39",
+    "arrivalTime" : 13835,
+    "waitingTime" : 1,
+    "startUnloadTime" : 13836,
+    "unloadTime" : 158
+  }, {
+    "name" : "ship212",
+    "arrivalTime" : 13838,
+    "waitingTime" : 22,
+    "startUnloadTime" : 13860,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship131",
+    "arrivalTime" : 14938,
+    "waitingTime" : 1,
+    "startUnloadTime" : 14939,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship68",
+    "arrivalTime" : 15112,
+    "waitingTime" : 1,
+    "startUnloadTime" : 15113,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship215",
+    "arrivalTime" : 15217,
+    "waitingTime" : 1,
+    "startUnloadTime" : 15218,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship122",
+    "arrivalTime" : 15560,
+    "waitingTime" : 1,
+    "startUnloadTime" : 15561,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship217",
+    "arrivalTime" : 15648,
+    "waitingTime" : 1,
+    "startUnloadTime" : 15649,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship87",
+    "arrivalTime" : 16442,
+    "waitingTime" : 1,
+    "startUnloadTime" : 16443,
+    "unloadTime" : 89
+  }, {
+    "name" : "ship164",
+    "arrivalTime" : 16556,
+    "waitingTime" : 1,
+    "startUnloadTime" : 16557,
+    "unloadTime" : 30
+  }, {
+    "name" : "ship82",
+    "arrivalTime" : 16590,
+    "waitingTime" : 1,
+    "startUnloadTime" : 16591,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship138",
+    "arrivalTime" : 16902,
+    "waitingTime" : 1,
+    "startUnloadTime" : 16903,
+    "unloadTime" : 26
+  }, {
+    "name" : "ship93",
+    "arrivalTime" : 16946,
+    "waitingTime" : 1,
+    "startUnloadTime" : 16947,
+    "unloadTime" : 105
+  }, {
+    "name" : "ship107",
+    "arrivalTime" : 17342,
+    "waitingTime" : 1,
+    "startUnloadTime" : 17343,
+    "unloadTime" : 76
+  }, {
+    "name" : "ship163",
+    "arrivalTime" : 17343,
+    "waitingTime" : 33,
+    "startUnloadTime" : 17376,
+    "unloadTime" : 146
+  }, {
+    "name" : "ship220",
+    "arrivalTime" : 17360,
+    "waitingTime" : 69,
+    "startUnloadTime" : 17429,
+    "unloadTime" : 144
+  }, {
+    "name" : "ship218",
+    "arrivalTime" : 17619,
+    "waitingTime" : 1,
+    "startUnloadTime" : 17620,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship245",
+    "arrivalTime" : 17909,
+    "waitingTime" : 1,
+    "startUnloadTime" : 17910,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship254",
+    "arrivalTime" : 18195,
+    "waitingTime" : 1,
+    "startUnloadTime" : 18196,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship85",
+    "arrivalTime" : 18249,
+    "waitingTime" : 1,
+    "startUnloadTime" : 18250,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship262",
+    "arrivalTime" : 18395,
+    "waitingTime" : 1,
+    "startUnloadTime" : 18396,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship195",
+    "arrivalTime" : 18557,
+    "waitingTime" : 1,
+    "startUnloadTime" : 18558,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship229",
+    "arrivalTime" : 19433,
+    "waitingTime" : 1,
+    "startUnloadTime" : 19434,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship232",
+    "arrivalTime" : 19936,
+    "waitingTime" : 1,
+    "startUnloadTime" : 19937,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship177",
+    "arrivalTime" : 19970,
+    "waitingTime" : 15,
+    "startUnloadTime" : 19985,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship114",
+    "arrivalTime" : 20193,
+    "waitingTime" : 1,
+    "startUnloadTime" : 20194,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship143",
+    "arrivalTime" : 20405,
+    "waitingTime" : 1,
+    "startUnloadTime" : 20406,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship208",
+    "arrivalTime" : 21478,
+    "waitingTime" : 1,
+    "startUnloadTime" : 21479,
+    "unloadTime" : 24
+  }, {
+    "name" : "ship211",
+    "arrivalTime" : 21648,
+    "waitingTime" : 1,
+    "startUnloadTime" : 21649,
+    "unloadTime" : 42
+  }, {
+    "name" : "ship266",
+    "arrivalTime" : 21769,
+    "waitingTime" : 1,
+    "startUnloadTime" : 21770,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship146",
+    "arrivalTime" : 21931,
+    "waitingTime" : 1,
+    "startUnloadTime" : 21932,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship270",
+    "arrivalTime" : 22078,
+    "waitingTime" : 1,
+    "startUnloadTime" : 22079,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship184",
+    "arrivalTime" : 22192,
+    "waitingTime" : 1,
+    "startUnloadTime" : 22193,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship147",
+    "arrivalTime" : 22485,
+    "waitingTime" : 1,
+    "startUnloadTime" : 22486,
+    "unloadTime" : 130
+  }, {
+    "name" : "ship289",
+    "arrivalTime" : 22610,
+    "waitingTime" : 7,
+    "startUnloadTime" : 22617,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship198",
+    "arrivalTime" : 22752,
+    "waitingTime" : 1,
+    "startUnloadTime" : 22753,
+    "unloadTime" : 50
+  }, {
+    "name" : "ship257",
+    "arrivalTime" : 22879,
+    "waitingTime" : 1,
+    "startUnloadTime" : 22880,
+    "unloadTime" : 37
+  }, {
+    "name" : "ship201",
+    "arrivalTime" : 23357,
+    "waitingTime" : 1,
+    "startUnloadTime" : 23358,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship295",
+    "arrivalTime" : 23502,
+    "waitingTime" : 1,
+    "startUnloadTime" : 23503,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship299",
+    "arrivalTime" : 23588,
+    "waitingTime" : 1,
+    "startUnloadTime" : 23589,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship144",
+    "arrivalTime" : 23777,
+    "waitingTime" : 1,
+    "startUnloadTime" : 23778,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship273",
+    "arrivalTime" : 24483,
+    "waitingTime" : 1,
+    "startUnloadTime" : 24484,
+    "unloadTime" : 30
+  }, {
+    "name" : "ship214",
+    "arrivalTime" : 25536,
+    "waitingTime" : 1,
+    "startUnloadTime" : 25537,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship197",
+    "arrivalTime" : 25660,
+    "waitingTime" : 1,
+    "startUnloadTime" : 25661,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship283",
+    "arrivalTime" : 26343,
+    "waitingTime" : 1,
+    "startUnloadTime" : 26344,
+    "unloadTime" : 178
+  }, {
+    "name" : "ship296",
+    "arrivalTime" : 26774,
+    "waitingTime" : 1,
+    "startUnloadTime" : 26775,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship255",
+    "arrivalTime" : 27392,
+    "waitingTime" : 1,
+    "startUnloadTime" : 27393,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship263",
+    "arrivalTime" : 27524,
+    "waitingTime" : 1,
+    "startUnloadTime" : 27525,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship318",
+    "arrivalTime" : 27645,
+    "waitingTime" : 7,
+    "startUnloadTime" : 27652,
+    "unloadTime" : 61
+  }, {
+    "name" : "ship206",
+    "arrivalTime" : 28132,
+    "waitingTime" : 1,
+    "startUnloadTime" : 28133,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship188",
+    "arrivalTime" : 28303,
+    "waitingTime" : 1,
+    "startUnloadTime" : 28304,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship191",
+    "arrivalTime" : 28708,
+    "waitingTime" : 1,
+    "startUnloadTime" : 28709,
+    "unloadTime" : 145
+  }, {
+    "name" : "ship330",
+    "arrivalTime" : 28831,
+    "waitingTime" : 22,
+    "startUnloadTime" : 28853,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship258",
+    "arrivalTime" : 30083,
+    "waitingTime" : 1,
+    "startUnloadTime" : 30084,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship223",
+    "arrivalTime" : 30557,
+    "waitingTime" : 1,
+    "startUnloadTime" : 30558,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship341",
+    "arrivalTime" : 30847,
+    "waitingTime" : 1,
+    "startUnloadTime" : 30848,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship234",
+    "arrivalTime" : 30946,
+    "waitingTime" : 1,
+    "startUnloadTime" : 30947,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship239",
+    "arrivalTime" : 30996,
+    "waitingTime" : 1,
+    "startUnloadTime" : 30997,
+    "unloadTime" : 8
+  }, {
+    "name" : "ship275",
+    "arrivalTime" : 31336,
+    "waitingTime" : 1,
+    "startUnloadTime" : 31337,
+    "unloadTime" : 207
+  }, {
+    "name" : "ship345",
+    "arrivalTime" : 31573,
+    "waitingTime" : 1,
+    "startUnloadTime" : 31574,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship344",
+    "arrivalTime" : 32960,
+    "waitingTime" : 1,
+    "startUnloadTime" : 32961,
+    "unloadTime" : 224
+  }, {
+    "name" : "ship242",
+    "arrivalTime" : 32964,
+    "waitingTime" : 3,
+    "startUnloadTime" : 32967,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship315",
+    "arrivalTime" : 33293,
+    "waitingTime" : 1,
+    "startUnloadTime" : 33294,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship240",
+    "arrivalTime" : 33467,
+    "waitingTime" : 1,
+    "startUnloadTime" : 33468,
+    "unloadTime" : 65
+  }, {
+    "name" : "ship340",
+    "arrivalTime" : 33578,
+    "waitingTime" : 1,
+    "startUnloadTime" : 33579,
+    "unloadTime" : 16
+  }, {
+    "name" : "ship353",
+    "arrivalTime" : 33895,
+    "waitingTime" : 1,
+    "startUnloadTime" : 33896,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship228",
+    "arrivalTime" : 34249,
+    "waitingTime" : 1,
+    "startUnloadTime" : 34250,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship346",
+    "arrivalTime" : 34579,
+    "waitingTime" : 1,
+    "startUnloadTime" : 34580,
+    "unloadTime" : 56
+  }, {
+    "name" : "ship286",
+    "arrivalTime" : 34815,
+    "waitingTime" : 1,
+    "startUnloadTime" : 34816,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship327",
+    "arrivalTime" : 35037,
+    "waitingTime" : 1,
+    "startUnloadTime" : 35038,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship324",
+    "arrivalTime" : 36048,
+    "waitingTime" : 1,
+    "startUnloadTime" : 36049,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship386",
+    "arrivalTime" : 37283,
+    "waitingTime" : 1,
+    "startUnloadTime" : 37284,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship307",
+    "arrivalTime" : 37932,
+    "waitingTime" : 1,
+    "startUnloadTime" : 37933,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship363",
+    "arrivalTime" : 38143,
+    "waitingTime" : 1,
+    "startUnloadTime" : 38144,
+    "unloadTime" : 144
+  }, {
+    "name" : "ship293",
+    "arrivalTime" : 38146,
+    "waitingTime" : 33,
+    "startUnloadTime" : 38179,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship303",
+    "arrivalTime" : 38163,
+    "waitingTime" : 129,
+    "startUnloadTime" : 38292,
+    "unloadTime" : 44
+  }, {
+    "name" : "ship387",
+    "arrivalTime" : 38307,
+    "waitingTime" : 14,
+    "startUnloadTime" : 38321,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship288",
+    "arrivalTime" : 38825,
+    "waitingTime" : 1,
+    "startUnloadTime" : 38826,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship272",
+    "arrivalTime" : 39359,
+    "waitingTime" : 1,
+    "startUnloadTime" : 39360,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship323",
+    "arrivalTime" : 39652,
+    "waitingTime" : 1,
+    "startUnloadTime" : 39653,
+    "unloadTime" : 184
+  }, {
+    "name" : "ship392",
+    "arrivalTime" : 39654,
+    "waitingTime" : 82,
+    "startUnloadTime" : 39736,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship333",
+    "arrivalTime" : 39789,
+    "waitingTime" : 72,
+    "startUnloadTime" : 39861,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship372",
+    "arrivalTime" : 39876,
+    "waitingTime" : 27,
+    "startUnloadTime" : 39903,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship309",
+    "arrivalTime" : 40227,
+    "waitingTime" : 1,
+    "startUnloadTime" : 40228,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship308",
+    "arrivalTime" : 40291,
+    "waitingTime" : 1,
+    "startUnloadTime" : 40292,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship334",
+    "arrivalTime" : 40408,
+    "waitingTime" : 1,
+    "startUnloadTime" : 40409,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship394",
+    "arrivalTime" : 41281,
+    "waitingTime" : 1,
+    "startUnloadTime" : 41282,
+    "unloadTime" : 116
+  }, {
+    "name" : "ship322",
+    "arrivalTime" : 41919,
+    "waitingTime" : 1,
+    "startUnloadTime" : 41920,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship385",
+    "arrivalTime" : 41942,
+    "waitingTime" : 1,
+    "startUnloadTime" : 41943,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship398",
+    "arrivalTime" : 41950,
+    "waitingTime" : 6,
+    "startUnloadTime" : 41956,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship396",
+    "arrivalTime" : 41967,
+    "waitingTime" : 16,
+    "startUnloadTime" : 41983,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship357",
+    "arrivalTime" : 42149,
+    "waitingTime" : 1,
+    "startUnloadTime" : 42150,
+    "unloadTime" : 9
+  }, {
+    "name" : "ship365",
+    "arrivalTime" : 42266,
+    "waitingTime" : 1,
+    "startUnloadTime" : 42267,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship349",
+    "arrivalTime" : 42311,
+    "waitingTime" : 1,
+    "startUnloadTime" : 42312,
+    "unloadTime" : 156
+  }, {
+    "name" : "ship347",
+    "arrivalTime" : 42446,
+    "waitingTime" : 22,
+    "startUnloadTime" : 42468,
+    "unloadTime" : 76
+  }, {
+    "name" : "ship306",
+    "arrivalTime" : 42552,
+    "waitingTime" : 1,
+    "startUnloadTime" : 42553,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship362",
+    "arrivalTime" : 42689,
+    "waitingTime" : 1,
+    "startUnloadTime" : 42690,
+    "unloadTime" : 0
+  } ],
+  "statLooseList" : [ {
+    "name" : "ship0",
+    "arrivalTime" : 0,
+    "waitingTime" : 1,
+    "startUnloadTime" : 1,
+    "unloadTime" : 11
+  }, {
+    "name" : "ship2",
+    "arrivalTime" : 0,
+    "waitingTime" : 13,
+    "startUnloadTime" : 13,
+    "unloadTime" : 240
+  }, {
+    "name" : "ship17",
+    "arrivalTime" : 0,
+    "waitingTime" : 254,
+    "startUnloadTime" : 254,
+    "unloadTime" : 114
+  }, {
+    "name" : "ship27",
+    "arrivalTime" : 0,
+    "waitingTime" : 369,
+    "startUnloadTime" : 369,
+    "unloadTime" : 36
+  }, {
+    "name" : "ship34",
+    "arrivalTime" : 0,
+    "waitingTime" : 406,
+    "startUnloadTime" : 406,
+    "unloadTime" : 102
+  }, {
+    "name" : "ship38",
+    "arrivalTime" : 0,
+    "waitingTime" : 509,
+    "startUnloadTime" : 509,
+    "unloadTime" : 197
+  }, {
+    "name" : "ship46",
+    "arrivalTime" : 0,
+    "waitingTime" : 707,
+    "startUnloadTime" : 707,
+    "unloadTime" : 58
+  }, {
+    "name" : "ship16",
+    "arrivalTime" : 212,
+    "waitingTime" : 554,
+    "startUnloadTime" : 766,
+    "unloadTime" : 228
+  }, {
+    "name" : "ship19",
+    "arrivalTime" : 238,
+    "waitingTime" : 757,
+    "startUnloadTime" : 995,
+    "unloadTime" : 191
+  }, {
+    "name" : "ship71",
+    "arrivalTime" : 301,
+    "waitingTime" : 886,
+    "startUnloadTime" : 1187,
+    "unloadTime" : 272
+  }, {
+    "name" : "ship92",
+    "arrivalTime" : 372,
+    "waitingTime" : 1088,
+    "startUnloadTime" : 1460,
+    "unloadTime" : 227
+  }, {
+    "name" : "ship28",
+    "arrivalTime" : 1349,
+    "waitingTime" : 339,
+    "startUnloadTime" : 1688,
+    "unloadTime" : 231
+  }, {
+    "name" : "ship84",
+    "arrivalTime" : 1425,
+    "waitingTime" : 495,
+    "startUnloadTime" : 1920,
+    "unloadTime" : 17
+  }, {
+    "name" : "ship29",
+    "arrivalTime" : 2209,
+    "waitingTime" : 1,
+    "startUnloadTime" : 2210,
+    "unloadTime" : 242
+  }, {
+    "name" : "ship43",
+    "arrivalTime" : 2319,
+    "waitingTime" : 134,
+    "startUnloadTime" : 2453,
+    "unloadTime" : 168
+  }, {
+    "name" : "ship106",
+    "arrivalTime" : 2571,
+    "waitingTime" : 51,
+    "startUnloadTime" : 2622,
+    "unloadTime" : 130
+  }, {
+    "name" : "ship37",
+    "arrivalTime" : 2764,
+    "waitingTime" : 1,
+    "startUnloadTime" : 2765,
+    "unloadTime" : 118
+  }, {
+    "name" : "ship45",
+    "arrivalTime" : 2879,
+    "waitingTime" : 5,
+    "startUnloadTime" : 2884,
+    "unloadTime" : 67
+  }, {
+    "name" : "ship74",
+    "arrivalTime" : 3052,
+    "waitingTime" : 1,
+    "startUnloadTime" : 3053,
+    "unloadTime" : 134
+  }, {
+    "name" : "ship8",
+    "arrivalTime" : 3984,
+    "waitingTime" : 1,
+    "startUnloadTime" : 3985,
+    "unloadTime" : 23
+  }, {
+    "name" : "ship72",
+    "arrivalTime" : 4648,
+    "waitingTime" : 1,
+    "startUnloadTime" : 4649,
+    "unloadTime" : 46
+  }, {
+    "name" : "ship65",
+    "arrivalTime" : 5249,
+    "waitingTime" : 1,
+    "startUnloadTime" : 5250,
+    "unloadTime" : 242
+  }, {
+    "name" : "ship94",
+    "arrivalTime" : 5301,
+    "waitingTime" : 192,
+    "startUnloadTime" : 5493,
+    "unloadTime" : 203
+  }, {
+    "name" : "ship91",
+    "arrivalTime" : 5512,
+    "waitingTime" : 185,
+    "startUnloadTime" : 5697,
+    "unloadTime" : 169
+  }, {
+    "name" : "ship132",
+    "arrivalTime" : 5528,
+    "waitingTime" : 339,
+    "startUnloadTime" : 5867,
+    "unloadTime" : 22
+  }, {
+    "name" : "ship22",
+    "arrivalTime" : 5568,
+    "waitingTime" : 322,
+    "startUnloadTime" : 5890,
+    "unloadTime" : 126
+  }, {
+    "name" : "ship142",
+    "arrivalTime" : 6123,
+    "waitingTime" : 1,
+    "startUnloadTime" : 6124,
+    "unloadTime" : 45
+  }, {
+    "name" : "ship140",
+    "arrivalTime" : 6568,
+    "waitingTime" : 1,
+    "startUnloadTime" : 6569,
+    "unloadTime" : 162
+  }, {
+    "name" : "ship88",
+    "arrivalTime" : 6613,
+    "waitingTime" : 119,
+    "startUnloadTime" : 6732,
+    "unloadTime" : 276
+  }, {
+    "name" : "ship75",
+    "arrivalTime" : 7240,
+    "waitingTime" : 1,
+    "startUnloadTime" : 7241,
+    "unloadTime" : 76
+  }, {
+    "name" : "ship128",
+    "arrivalTime" : 7284,
+    "waitingTime" : 34,
+    "startUnloadTime" : 7318,
+    "unloadTime" : 165
+  }, {
+    "name" : "ship152",
+    "arrivalTime" : 7421,
+    "waitingTime" : 63,
+    "startUnloadTime" : 7484,
+    "unloadTime" : 263
+  }, {
+    "name" : "ship52",
+    "arrivalTime" : 7428,
+    "waitingTime" : 181,
+    "startUnloadTime" : 7609,
+    "unloadTime" : 366
+  }, {
+    "name" : "ship11",
+    "arrivalTime" : 7436,
+    "waitingTime" : 539,
+    "startUnloadTime" : 7975,
+    "unloadTime" : 109
+  }, {
+    "name" : "ship153",
+    "arrivalTime" : 7495,
+    "waitingTime" : 590,
+    "startUnloadTime" : 8085,
+    "unloadTime" : 11
+  }, {
+    "name" : "ship32",
+    "arrivalTime" : 7544,
+    "waitingTime" : 553,
+    "startUnloadTime" : 8097,
+    "unloadTime" : 101
+  }, {
+    "name" : "ship111",
+    "arrivalTime" : 7871,
+    "waitingTime" : 328,
+    "startUnloadTime" : 8199,
+    "unloadTime" : 99
+  }, {
+    "name" : "ship100",
+    "arrivalTime" : 7918,
+    "waitingTime" : 312,
+    "startUnloadTime" : 8230,
+    "unloadTime" : 199
+  }, {
+    "name" : "ship116",
+    "arrivalTime" : 8142,
+    "waitingTime" : 195,
+    "startUnloadTime" : 8337,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship70",
+    "arrivalTime" : 8360,
+    "waitingTime" : 80,
+    "startUnloadTime" : 8440,
+    "unloadTime" : 224
+  }, {
+    "name" : "ship121",
+    "arrivalTime" : 8715,
+    "waitingTime" : 1,
+    "startUnloadTime" : 8716,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship62",
+    "arrivalTime" : 8950,
+    "waitingTime" : 1,
+    "startUnloadTime" : 8951,
+    "unloadTime" : 14
+  }, {
+    "name" : "ship124",
+    "arrivalTime" : 9061,
+    "waitingTime" : 1,
+    "startUnloadTime" : 9062,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship158",
+    "arrivalTime" : 9310,
+    "waitingTime" : 1,
+    "startUnloadTime" : 9311,
+    "unloadTime" : 201
+  }, {
+    "name" : "ship98",
+    "arrivalTime" : 9735,
+    "waitingTime" : 1,
+    "startUnloadTime" : 9736,
+    "unloadTime" : 3
+  }, {
+    "name" : "ship115",
+    "arrivalTime" : 10140,
+    "waitingTime" : 1,
+    "startUnloadTime" : 10141,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship3",
+    "arrivalTime" : 10279,
+    "waitingTime" : 65,
+    "startUnloadTime" : 10344,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship189",
+    "arrivalTime" : 10878,
+    "waitingTime" : 1,
+    "startUnloadTime" : 10879,
+    "unloadTime" : 52
+  }, {
+    "name" : "ship133",
+    "arrivalTime" : 11459,
+    "waitingTime" : 1,
+    "startUnloadTime" : 11460,
+    "unloadTime" : 117
+  }, {
+    "name" : "ship21",
+    "arrivalTime" : 11587,
+    "waitingTime" : 1,
+    "startUnloadTime" : 11588,
+    "unloadTime" : 41
+  }, {
+    "name" : "ship33",
+    "arrivalTime" : 11956,
+    "waitingTime" : 1,
+    "startUnloadTime" : 11957,
+    "unloadTime" : 218
+  }, {
+    "name" : "ship156",
+    "arrivalTime" : 13171,
+    "waitingTime" : 1,
+    "startUnloadTime" : 13172,
+    "unloadTime" : 9
+  }, {
+    "name" : "ship173",
+    "arrivalTime" : 13368,
+    "waitingTime" : 1,
+    "startUnloadTime" : 13369,
+    "unloadTime" : 123
+  }, {
+    "name" : "ship196",
+    "arrivalTime" : 13771,
+    "waitingTime" : 1,
+    "startUnloadTime" : 13772,
+    "unloadTime" : 19
+  }, {
+    "name" : "ship69",
+    "arrivalTime" : 14040,
+    "waitingTime" : 1,
+    "startUnloadTime" : 14041,
+    "unloadTime" : 86
+  }, {
+    "name" : "ship80",
+    "arrivalTime" : 14264,
+    "waitingTime" : 1,
+    "startUnloadTime" : 14265,
+    "unloadTime" : 141
+  }, {
+    "name" : "ship224",
+    "arrivalTime" : 15189,
+    "waitingTime" : 1,
+    "startUnloadTime" : 15190,
+    "unloadTime" : 120
+  }, {
+    "name" : "ship192",
+    "arrivalTime" : 15202,
+    "waitingTime" : 109,
+    "startUnloadTime" : 15311,
+    "unloadTime" : 239
+  }, {
+    "name" : "ship123",
+    "arrivalTime" : 15832,
+    "waitingTime" : 1,
+    "startUnloadTime" : 15833,
+    "unloadTime" : 173
+  }, {
+    "name" : "ship149",
+    "arrivalTime" : 16877,
+    "waitingTime" : 1,
+    "startUnloadTime" : 16878,
+    "unloadTime" : 23
+  }, {
+    "name" : "ship155",
+    "arrivalTime" : 17159,
+    "waitingTime" : 1,
+    "startUnloadTime" : 17160,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship178",
+    "arrivalTime" : 17332,
+    "waitingTime" : 1,
+    "startUnloadTime" : 17333,
+    "unloadTime" : 211
+  }, {
+    "name" : "ship160",
+    "arrivalTime" : 17408,
+    "waitingTime" : 136,
+    "startUnloadTime" : 17544,
+    "unloadTime" : 83
+  }, {
+    "name" : "ship248",
+    "arrivalTime" : 18437,
+    "waitingTime" : 1,
+    "startUnloadTime" : 18438,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship117",
+    "arrivalTime" : 18540,
+    "waitingTime" : 64,
+    "startUnloadTime" : 18604,
+    "unloadTime" : 170
+  }, {
+    "name" : "ship233",
+    "arrivalTime" : 18677,
+    "waitingTime" : 96,
+    "startUnloadTime" : 18773,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship227",
+    "arrivalTime" : 19169,
+    "waitingTime" : 1,
+    "startUnloadTime" : 19170,
+    "unloadTime" : 14
+  }, {
+    "name" : "ship154",
+    "arrivalTime" : 19694,
+    "waitingTime" : 1,
+    "startUnloadTime" : 19695,
+    "unloadTime" : 102
+  }, {
+    "name" : "ship127",
+    "arrivalTime" : 20080,
+    "waitingTime" : 1,
+    "startUnloadTime" : 20081,
+    "unloadTime" : 83
+  }, {
+    "name" : "ship219",
+    "arrivalTime" : 21026,
+    "waitingTime" : 1,
+    "startUnloadTime" : 21027,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship180",
+    "arrivalTime" : 21950,
+    "waitingTime" : 1,
+    "startUnloadTime" : 21951,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship267",
+    "arrivalTime" : 22120,
+    "waitingTime" : 1,
+    "startUnloadTime" : 22121,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship253",
+    "arrivalTime" : 22262,
+    "waitingTime" : 1,
+    "startUnloadTime" : 22263,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship130",
+    "arrivalTime" : 22588,
+    "waitingTime" : 1,
+    "startUnloadTime" : 22589,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship294",
+    "arrivalTime" : 22698,
+    "waitingTime" : 1,
+    "startUnloadTime" : 22699,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship193",
+    "arrivalTime" : 23046,
+    "waitingTime" : 1,
+    "startUnloadTime" : 23047,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship137",
+    "arrivalTime" : 23064,
+    "waitingTime" : 1,
+    "startUnloadTime" : 23065,
+    "unloadTime" : 103
+  }, {
+    "name" : "ship150",
+    "arrivalTime" : 23210,
+    "waitingTime" : 1,
+    "startUnloadTime" : 23211,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship157",
+    "arrivalTime" : 23361,
+    "waitingTime" : 1,
+    "startUnloadTime" : 23362,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship301",
+    "arrivalTime" : 23524,
+    "waitingTime" : 1,
+    "startUnloadTime" : 23525,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship298",
+    "arrivalTime" : 23734,
+    "waitingTime" : 1,
+    "startUnloadTime" : 23735,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship250",
+    "arrivalTime" : 23940,
+    "waitingTime" : 1,
+    "startUnloadTime" : 23941,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship230",
+    "arrivalTime" : 24095,
+    "waitingTime" : 1,
+    "startUnloadTime" : 24096,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship221",
+    "arrivalTime" : 24454,
+    "waitingTime" : 1,
+    "startUnloadTime" : 24455,
+    "unloadTime" : 105
+  }, {
+    "name" : "ship269",
+    "arrivalTime" : 25083,
+    "waitingTime" : 1,
+    "startUnloadTime" : 25084,
+    "unloadTime" : 121
+  }, {
+    "name" : "ship314",
+    "arrivalTime" : 25703,
+    "waitingTime" : 1,
+    "startUnloadTime" : 25704,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship216",
+    "arrivalTime" : 26390,
+    "waitingTime" : 1,
+    "startUnloadTime" : 26391,
+    "unloadTime" : 20
+  }, {
+    "name" : "ship194",
+    "arrivalTime" : 26614,
+    "waitingTime" : 1,
+    "startUnloadTime" : 26615,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship243",
+    "arrivalTime" : 26763,
+    "waitingTime" : 1,
+    "startUnloadTime" : 26764,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship175",
+    "arrivalTime" : 26774,
+    "waitingTime" : 1,
+    "startUnloadTime" : 26775,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship171",
+    "arrivalTime" : 27842,
+    "waitingTime" : 1,
+    "startUnloadTime" : 27843,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship300",
+    "arrivalTime" : 27865,
+    "waitingTime" : 1,
+    "startUnloadTime" : 27866,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship200",
+    "arrivalTime" : 29038,
+    "waitingTime" : 1,
+    "startUnloadTime" : 29039,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship186",
+    "arrivalTime" : 29177,
+    "waitingTime" : 1,
+    "startUnloadTime" : 29178,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship302",
+    "arrivalTime" : 29215,
+    "waitingTime" : 1,
+    "startUnloadTime" : 29216,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship326",
+    "arrivalTime" : 29461,
+    "waitingTime" : 1,
+    "startUnloadTime" : 29462,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship280",
+    "arrivalTime" : 29727,
+    "waitingTime" : 1,
+    "startUnloadTime" : 29728,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship332",
+    "arrivalTime" : 29760,
+    "waitingTime" : 1,
+    "startUnloadTime" : 29761,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship183",
+    "arrivalTime" : 29846,
+    "waitingTime" : 1,
+    "startUnloadTime" : 29847,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship319",
+    "arrivalTime" : 30447,
+    "waitingTime" : 1,
+    "startUnloadTime" : 30448,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship204",
+    "arrivalTime" : 30725,
+    "waitingTime" : 1,
+    "startUnloadTime" : 30726,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship351",
+    "arrivalTime" : 30786,
+    "waitingTime" : 1,
+    "startUnloadTime" : 30787,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship241",
+    "arrivalTime" : 30877,
+    "waitingTime" : 1,
+    "startUnloadTime" : 30878,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship209",
+    "arrivalTime" : 31592,
+    "waitingTime" : 1,
+    "startUnloadTime" : 31593,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship287",
+    "arrivalTime" : 32849,
+    "waitingTime" : 1,
+    "startUnloadTime" : 32850,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship352",
+    "arrivalTime" : 33000,
+    "waitingTime" : 1,
+    "startUnloadTime" : 33001,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship359",
+    "arrivalTime" : 34217,
+    "waitingTime" : 1,
+    "startUnloadTime" : 34218,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship399",
+    "arrivalTime" : 35106,
+    "waitingTime" : 1,
+    "startUnloadTime" : 35107,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship261",
+    "arrivalTime" : 35355,
+    "waitingTime" : 1,
+    "startUnloadTime" : 35356,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship389",
+    "arrivalTime" : 35613,
+    "waitingTime" : 1,
+    "startUnloadTime" : 35614,
+    "unloadTime" : 8
+  }, {
+    "name" : "ship328",
+    "arrivalTime" : 35741,
+    "waitingTime" : 1,
+    "startUnloadTime" : 35742,
+    "unloadTime" : 23
+  }, {
+    "name" : "ship249",
+    "arrivalTime" : 36435,
+    "waitingTime" : 1,
+    "startUnloadTime" : 36436,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship368",
+    "arrivalTime" : 36953,
+    "waitingTime" : 1,
+    "startUnloadTime" : 36954,
+    "unloadTime" : 172
+  }, {
+    "name" : "ship252",
+    "arrivalTime" : 37198,
+    "waitingTime" : 1,
+    "startUnloadTime" : 37199,
+    "unloadTime" : 27
+  }, {
+    "name" : "ship281",
+    "arrivalTime" : 37796,
+    "waitingTime" : 1,
+    "startUnloadTime" : 37797,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship342",
+    "arrivalTime" : 37976,
+    "waitingTime" : 1,
+    "startUnloadTime" : 37977,
+    "unloadTime" : 2
+  }, {
+    "name" : "ship373",
+    "arrivalTime" : 38571,
+    "waitingTime" : 1,
+    "startUnloadTime" : 38572,
+    "unloadTime" : 43
+  }, {
+    "name" : "ship268",
+    "arrivalTime" : 38631,
+    "waitingTime" : 1,
+    "startUnloadTime" : 38632,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship343",
+    "arrivalTime" : 38909,
+    "waitingTime" : 1,
+    "startUnloadTime" : 38910,
+    "unloadTime" : 214
+  }, {
+    "name" : "ship304",
+    "arrivalTime" : 39859,
+    "waitingTime" : 1,
+    "startUnloadTime" : 39860,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship370",
+    "arrivalTime" : 40019,
+    "waitingTime" : 1,
+    "startUnloadTime" : 40020,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship290",
+    "arrivalTime" : 40503,
+    "waitingTime" : 1,
+    "startUnloadTime" : 40504,
+    "unloadTime" : 102
+  }, {
+    "name" : "ship364",
+    "arrivalTime" : 41787,
+    "waitingTime" : 1,
+    "startUnloadTime" : 41788,
+    "unloadTime" : 57
+  }, {
+    "name" : "ship377",
+    "arrivalTime" : 42093,
+    "waitingTime" : 1,
+    "startUnloadTime" : 42094,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship384",
+    "arrivalTime" : 42094,
+    "waitingTime" : 5,
+    "startUnloadTime" : 42099,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship393",
+    "arrivalTime" : 42321,
+    "waitingTime" : 1,
+    "startUnloadTime" : 42322,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship320",
+    "arrivalTime" : 42328,
+    "waitingTime" : 1,
+    "startUnloadTime" : 42329,
+    "unloadTime" : 273
+  }, {
+    "name" : "ship381",
+    "arrivalTime" : 42333,
+    "waitingTime" : 268,
+    "startUnloadTime" : 42601,
+    "unloadTime" : 145
+  }, {
+    "name" : "ship388",
+    "arrivalTime" : 42719,
+    "waitingTime" : 28,
+    "startUnloadTime" : 42747,
+    "unloadTime" : 67
+  }, {
+    "name" : "ship376",
+    "arrivalTime" : 42788,
+    "waitingTime" : 26,
+    "startUnloadTime" : 42814,
+    "unloadTime" : 64
+  }, {
+    "name" : "ship397",
+    "arrivalTime" : 42900,
+    "waitingTime" : 1,
+    "startUnloadTime" : 42901,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship390",
+    "arrivalTime" : 43003,
+    "waitingTime" : 19,
+    "startUnloadTime" : 43022,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship371",
+    "arrivalTime" : 43046,
+    "waitingTime" : 15,
+    "startUnloadTime" : 43061,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship383",
+    "arrivalTime" : 43106,
+    "waitingTime" : 1,
+    "startUnloadTime" : 43107,
+    "unloadTime" : 0
+  } ],
+  "statContainerList" : [ {
+    "name" : "ship6",
+    "arrivalTime" : 0,
+    "waitingTime" : 1,
+    "startUnloadTime" : 1,
+    "unloadTime" : 8
+  }, {
+    "name" : "ship10",
+    "arrivalTime" : 0,
+    "waitingTime" : 10,
+    "startUnloadTime" : 10,
+    "unloadTime" : 231
+  }, {
+    "name" : "ship14",
+    "arrivalTime" : 0,
+    "waitingTime" : 242,
+    "startUnloadTime" : 242,
+    "unloadTime" : 76
+  }, {
+    "name" : "ship18",
+    "arrivalTime" : 0,
+    "waitingTime" : 319,
+    "startUnloadTime" : 319,
+    "unloadTime" : 94
+  }, {
+    "name" : "ship41",
+    "arrivalTime" : 0,
+    "waitingTime" : 414,
+    "startUnloadTime" : 414,
+    "unloadTime" : 30
+  }, {
+    "name" : "ship49",
+    "arrivalTime" : 0,
+    "waitingTime" : 445,
+    "startUnloadTime" : 445,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship55",
+    "arrivalTime" : 0,
+    "waitingTime" : 498,
+    "startUnloadTime" : 498,
+    "unloadTime" : 250
+  }, {
+    "name" : "ship61",
+    "arrivalTime" : 0,
+    "waitingTime" : 749,
+    "startUnloadTime" : 749,
+    "unloadTime" : 249
+  }, {
+    "name" : "ship73",
+    "arrivalTime" : 0,
+    "waitingTime" : 999,
+    "startUnloadTime" : 999,
+    "unloadTime" : 3
+  }, {
+    "name" : "ship78",
+    "arrivalTime" : 0,
+    "waitingTime" : 1003,
+    "startUnloadTime" : 1003,
+    "unloadTime" : 241
+  }, {
+    "name" : "ship76",
+    "arrivalTime" : 282,
+    "waitingTime" : 963,
+    "startUnloadTime" : 1245,
+    "unloadTime" : 19
+  }, {
+    "name" : "ship4",
+    "arrivalTime" : 729,
+    "waitingTime" : 536,
+    "startUnloadTime" : 1265,
+    "unloadTime" : 6
+  }, {
+    "name" : "ship59",
+    "arrivalTime" : 1269,
+    "waitingTime" : 3,
+    "startUnloadTime" : 1272,
+    "unloadTime" : 30
+  }, {
+    "name" : "ship110",
+    "arrivalTime" : 1883,
+    "waitingTime" : 1,
+    "startUnloadTime" : 1884,
+    "unloadTime" : 57
+  }, {
+    "name" : "ship5",
+    "arrivalTime" : 1988,
+    "waitingTime" : 1,
+    "startUnloadTime" : 1989,
+    "unloadTime" : 157
+  }, {
+    "name" : "ship109",
+    "arrivalTime" : 3112,
+    "waitingTime" : 1,
+    "startUnloadTime" : 3113,
+    "unloadTime" : 241
+  }, {
+    "name" : "ship79",
+    "arrivalTime" : 3738,
+    "waitingTime" : 1,
+    "startUnloadTime" : 3739,
+    "unloadTime" : 253
+  }, {
+    "name" : "ship51",
+    "arrivalTime" : 3921,
+    "waitingTime" : 71,
+    "startUnloadTime" : 3992,
+    "unloadTime" : 18
+  }, {
+    "name" : "ship102",
+    "arrivalTime" : 4139,
+    "waitingTime" : 1,
+    "startUnloadTime" : 4140,
+    "unloadTime" : 91
+  }, {
+    "name" : "ship95",
+    "arrivalTime" : 4306,
+    "waitingTime" : 1,
+    "startUnloadTime" : 4307,
+    "unloadTime" : 83
+  }, {
+    "name" : "ship99",
+    "arrivalTime" : 4350,
+    "waitingTime" : 41,
+    "startUnloadTime" : 4391,
+    "unloadTime" : 28
+  }, {
+    "name" : "ship112",
+    "arrivalTime" : 4658,
+    "waitingTime" : 1,
+    "startUnloadTime" : 4659,
+    "unloadTime" : 216
+  }, {
+    "name" : "ship56",
+    "arrivalTime" : 5355,
+    "waitingTime" : 1,
+    "startUnloadTime" : 5356,
+    "unloadTime" : 162
+  }, {
+    "name" : "ship90",
+    "arrivalTime" : 5374,
+    "waitingTime" : 145,
+    "startUnloadTime" : 5519,
+    "unloadTime" : 172
+  }, {
+    "name" : "ship120",
+    "arrivalTime" : 5576,
+    "waitingTime" : 116,
+    "startUnloadTime" : 5692,
+    "unloadTime" : 171
+  }, {
+    "name" : "ship36",
+    "arrivalTime" : 6393,
+    "waitingTime" : 1,
+    "startUnloadTime" : 6394,
+    "unloadTime" : 8
+  }, {
+    "name" : "ship97",
+    "arrivalTime" : 6609,
+    "waitingTime" : 1,
+    "startUnloadTime" : 6610,
+    "unloadTime" : 259
+  }, {
+    "name" : "ship96",
+    "arrivalTime" : 6653,
+    "waitingTime" : 216,
+    "startUnloadTime" : 6869,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship77",
+    "arrivalTime" : 6848,
+    "waitingTime" : 99,
+    "startUnloadTime" : 6947,
+    "unloadTime" : 98
+  }, {
+    "name" : "ship60",
+    "arrivalTime" : 7649,
+    "waitingTime" : 1,
+    "startUnloadTime" : 7650,
+    "unloadTime" : 105
+  }, {
+    "name" : "ship169",
+    "arrivalTime" : 8309,
+    "waitingTime" : 1,
+    "startUnloadTime" : 8310,
+    "unloadTime" : 233
+  }, {
+    "name" : "ship126",
+    "arrivalTime" : 8452,
+    "waitingTime" : 92,
+    "startUnloadTime" : 8544,
+    "unloadTime" : 237
+  }, {
+    "name" : "ship50",
+    "arrivalTime" : 8770,
+    "waitingTime" : 9,
+    "startUnloadTime" : 8779,
+    "unloadTime" : 237
+  }, {
+    "name" : "ship148",
+    "arrivalTime" : 10029,
+    "waitingTime" : 1,
+    "startUnloadTime" : 10030,
+    "unloadTime" : 24
+  }, {
+    "name" : "ship40",
+    "arrivalTime" : 10398,
+    "waitingTime" : 1,
+    "startUnloadTime" : 10399,
+    "unloadTime" : 81
+  }, {
+    "name" : "ship9",
+    "arrivalTime" : 10665,
+    "waitingTime" : 1,
+    "startUnloadTime" : 10666,
+    "unloadTime" : 74
+  }, {
+    "name" : "ship89",
+    "arrivalTime" : 10760,
+    "waitingTime" : 1,
+    "startUnloadTime" : 10761,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship139",
+    "arrivalTime" : 10820,
+    "waitingTime" : 1,
+    "startUnloadTime" : 10821,
+    "unloadTime" : 30
+  }, {
+    "name" : "ship166",
+    "arrivalTime" : 10824,
+    "waitingTime" : 28,
+    "startUnloadTime" : 10852,
+    "unloadTime" : 286
+  }, {
+    "name" : "ship187",
+    "arrivalTime" : 11335,
+    "waitingTime" : 1,
+    "startUnloadTime" : 11336,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship58",
+    "arrivalTime" : 12399,
+    "waitingTime" : 1,
+    "startUnloadTime" : 12400,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship179",
+    "arrivalTime" : 12571,
+    "waitingTime" : 1,
+    "startUnloadTime" : 12572,
+    "unloadTime" : 23
+  }, {
+    "name" : "ship202",
+    "arrivalTime" : 13049,
+    "waitingTime" : 1,
+    "startUnloadTime" : 13050,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship174",
+    "arrivalTime" : 13185,
+    "waitingTime" : 1,
+    "startUnloadTime" : 13186,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship172",
+    "arrivalTime" : 13405,
+    "waitingTime" : 1,
+    "startUnloadTime" : 13406,
+    "unloadTime" : 47
+  }, {
+    "name" : "ship125",
+    "arrivalTime" : 14267,
+    "waitingTime" : 1,
+    "startUnloadTime" : 14268,
+    "unloadTime" : 36
+  }, {
+    "name" : "ship136",
+    "arrivalTime" : 14332,
+    "waitingTime" : 1,
+    "startUnloadTime" : 14333,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship83",
+    "arrivalTime" : 14333,
+    "waitingTime" : 22,
+    "startUnloadTime" : 14355,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship118",
+    "arrivalTime" : 14385,
+    "waitingTime" : 6,
+    "startUnloadTime" : 14391,
+    "unloadTime" : 243
+  }, {
+    "name" : "ship181",
+    "arrivalTime" : 14708,
+    "waitingTime" : 1,
+    "startUnloadTime" : 14709,
+    "unloadTime" : 130
+  }, {
+    "name" : "ship222",
+    "arrivalTime" : 14739,
+    "waitingTime" : 1,
+    "startUnloadTime" : 14740,
+    "unloadTime" : 308
+  }, {
+    "name" : "ship213",
+    "arrivalTime" : 14997,
+    "waitingTime" : 13,
+    "startUnloadTime" : 15010,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship64",
+    "arrivalTime" : 15597,
+    "waitingTime" : 1,
+    "startUnloadTime" : 15598,
+    "unloadTime" : 42
+  }, {
+    "name" : "ship225",
+    "arrivalTime" : 15717,
+    "waitingTime" : 1,
+    "startUnloadTime" : 15718,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship235",
+    "arrivalTime" : 15831,
+    "waitingTime" : 1,
+    "startUnloadTime" : 15832,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship231",
+    "arrivalTime" : 15934,
+    "waitingTime" : 1,
+    "startUnloadTime" : 15935,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship167",
+    "arrivalTime" : 16296,
+    "waitingTime" : 1,
+    "startUnloadTime" : 16297,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship176",
+    "arrivalTime" : 16956,
+    "waitingTime" : 1,
+    "startUnloadTime" : 16957,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship207",
+    "arrivalTime" : 17536,
+    "waitingTime" : 1,
+    "startUnloadTime" : 17537,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship103",
+    "arrivalTime" : 17849,
+    "waitingTime" : 1,
+    "startUnloadTime" : 17850,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship168",
+    "arrivalTime" : 17896,
+    "waitingTime" : 1,
+    "startUnloadTime" : 17897,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship165",
+    "arrivalTime" : 18521,
+    "waitingTime" : 1,
+    "startUnloadTime" : 18522,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship264",
+    "arrivalTime" : 19346,
+    "waitingTime" : 1,
+    "startUnloadTime" : 19347,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship141",
+    "arrivalTime" : 19619,
+    "waitingTime" : 1,
+    "startUnloadTime" : 19620,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship185",
+    "arrivalTime" : 19702,
+    "waitingTime" : 1,
+    "startUnloadTime" : 19703,
+    "unloadTime" : 52
+  }, {
+    "name" : "ship282",
+    "arrivalTime" : 20693,
+    "waitingTime" : 1,
+    "startUnloadTime" : 20694,
+    "unloadTime" : 11
+  }, {
+    "name" : "ship199",
+    "arrivalTime" : 21864,
+    "waitingTime" : 1,
+    "startUnloadTime" : 21865,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship129",
+    "arrivalTime" : 22050,
+    "waitingTime" : 1,
+    "startUnloadTime" : 22051,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship246",
+    "arrivalTime" : 22536,
+    "waitingTime" : 1,
+    "startUnloadTime" : 22537,
+    "unloadTime" : 87
+  }, {
+    "name" : "ship265",
+    "arrivalTime" : 23167,
+    "waitingTime" : 1,
+    "startUnloadTime" : 23168,
+    "unloadTime" : 245
+  }, {
+    "name" : "ship182",
+    "arrivalTime" : 23245,
+    "waitingTime" : 51,
+    "startUnloadTime" : 23296,
+    "unloadTime" : 173
+  }, {
+    "name" : "ship162",
+    "arrivalTime" : 23461,
+    "waitingTime" : 4,
+    "startUnloadTime" : 23465,
+    "unloadTime" : 6
+  }, {
+    "name" : "ship135",
+    "arrivalTime" : 23562,
+    "waitingTime" : 1,
+    "startUnloadTime" : 23563,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship170",
+    "arrivalTime" : 24469,
+    "waitingTime" : 1,
+    "startUnloadTime" : 24470,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship210",
+    "arrivalTime" : 25431,
+    "waitingTime" : 1,
+    "startUnloadTime" : 25432,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship247",
+    "arrivalTime" : 26136,
+    "waitingTime" : 1,
+    "startUnloadTime" : 26137,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship274",
+    "arrivalTime" : 26459,
+    "waitingTime" : 1,
+    "startUnloadTime" : 26460,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship203",
+    "arrivalTime" : 26666,
+    "waitingTime" : 1,
+    "startUnloadTime" : 26667,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship313",
+    "arrivalTime" : 26679,
+    "waitingTime" : 1,
+    "startUnloadTime" : 26680,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship238",
+    "arrivalTime" : 26910,
+    "waitingTime" : 1,
+    "startUnloadTime" : 26911,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship297",
+    "arrivalTime" : 26984,
+    "waitingTime" : 1,
+    "startUnloadTime" : 26985,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship251",
+    "arrivalTime" : 27088,
+    "waitingTime" : 1,
+    "startUnloadTime" : 27089,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship339",
+    "arrivalTime" : 27700,
+    "waitingTime" : 1,
+    "startUnloadTime" : 27701,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship190",
+    "arrivalTime" : 28028,
+    "waitingTime" : 1,
+    "startUnloadTime" : 28029,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship237",
+    "arrivalTime" : 28190,
+    "waitingTime" : 1,
+    "startUnloadTime" : 28191,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship285",
+    "arrivalTime" : 28226,
+    "waitingTime" : 1,
+    "startUnloadTime" : 28227,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship271",
+    "arrivalTime" : 28395,
+    "waitingTime" : 1,
+    "startUnloadTime" : 28396,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship291",
+    "arrivalTime" : 28435,
+    "waitingTime" : 1,
+    "startUnloadTime" : 28436,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship305",
+    "arrivalTime" : 29141,
+    "waitingTime" : 1,
+    "startUnloadTime" : 29142,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship355",
+    "arrivalTime" : 29278,
+    "waitingTime" : 1,
+    "startUnloadTime" : 29279,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship360",
+    "arrivalTime" : 29459,
+    "waitingTime" : 1,
+    "startUnloadTime" : 29460,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship244",
+    "arrivalTime" : 29564,
+    "waitingTime" : 1,
+    "startUnloadTime" : 29565,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship356",
+    "arrivalTime" : 29652,
+    "waitingTime" : 1,
+    "startUnloadTime" : 29653,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship325",
+    "arrivalTime" : 30032,
+    "waitingTime" : 1,
+    "startUnloadTime" : 30033,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship205",
+    "arrivalTime" : 30147,
+    "waitingTime" : 1,
+    "startUnloadTime" : 30148,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship226",
+    "arrivalTime" : 30308,
+    "waitingTime" : 1,
+    "startUnloadTime" : 30309,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship256",
+    "arrivalTime" : 30525,
+    "waitingTime" : 1,
+    "startUnloadTime" : 30526,
+    "unloadTime" : 20
+  }, {
+    "name" : "ship321",
+    "arrivalTime" : 31316,
+    "waitingTime" : 1,
+    "startUnloadTime" : 31317,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship259",
+    "arrivalTime" : 32241,
+    "waitingTime" : 1,
+    "startUnloadTime" : 32242,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship276",
+    "arrivalTime" : 32384,
+    "waitingTime" : 1,
+    "startUnloadTime" : 32385,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship312",
+    "arrivalTime" : 32496,
+    "waitingTime" : 1,
+    "startUnloadTime" : 32497,
+    "unloadTime" : 34
+  }, {
+    "name" : "ship316",
+    "arrivalTime" : 32496,
+    "waitingTime" : 1,
+    "startUnloadTime" : 32497,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship336",
+    "arrivalTime" : 33034,
+    "waitingTime" : 1,
+    "startUnloadTime" : 33035,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship310",
+    "arrivalTime" : 33219,
+    "waitingTime" : 1,
+    "startUnloadTime" : 33220,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship284",
+    "arrivalTime" : 33242,
+    "waitingTime" : 1,
+    "startUnloadTime" : 33243,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship279",
+    "arrivalTime" : 33272,
+    "waitingTime" : 1,
+    "startUnloadTime" : 33273,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship380",
+    "arrivalTime" : 33489,
+    "waitingTime" : 1,
+    "startUnloadTime" : 33490,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship329",
+    "arrivalTime" : 33660,
+    "waitingTime" : 1,
+    "startUnloadTime" : 33661,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship311",
+    "arrivalTime" : 33954,
+    "waitingTime" : 1,
+    "startUnloadTime" : 33955,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship236",
+    "arrivalTime" : 34027,
+    "waitingTime" : 1,
+    "startUnloadTime" : 34028,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship260",
+    "arrivalTime" : 34190,
+    "waitingTime" : 1,
+    "startUnloadTime" : 34191,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship338",
+    "arrivalTime" : 34281,
+    "waitingTime" : 1,
+    "startUnloadTime" : 34282,
+    "unloadTime" : 6
+  }, {
+    "name" : "ship292",
+    "arrivalTime" : 34927,
+    "waitingTime" : 1,
+    "startUnloadTime" : 34928,
+    "unloadTime" : 69
+  }, {
+    "name" : "ship366",
+    "arrivalTime" : 34948,
+    "waitingTime" : 1,
+    "startUnloadTime" : 34949,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship277",
+    "arrivalTime" : 35206,
+    "waitingTime" : 1,
+    "startUnloadTime" : 35207,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship335",
+    "arrivalTime" : 35256,
+    "waitingTime" : 1,
+    "startUnloadTime" : 35257,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship375",
+    "arrivalTime" : 35466,
+    "waitingTime" : 1,
+    "startUnloadTime" : 35467,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship278",
+    "arrivalTime" : 35517,
+    "waitingTime" : 1,
+    "startUnloadTime" : 35518,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship361",
+    "arrivalTime" : 36195,
+    "waitingTime" : 1,
+    "startUnloadTime" : 36196,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship350",
+    "arrivalTime" : 36338,
+    "waitingTime" : 1,
+    "startUnloadTime" : 36339,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship358",
+    "arrivalTime" : 36758,
+    "waitingTime" : 1,
+    "startUnloadTime" : 36759,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship382",
+    "arrivalTime" : 37054,
+    "waitingTime" : 1,
+    "startUnloadTime" : 37055,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship354",
+    "arrivalTime" : 38520,
+    "waitingTime" : 1,
+    "startUnloadTime" : 38521,
+    "unloadTime" : 136
+  }, {
+    "name" : "ship379",
+    "arrivalTime" : 39816,
+    "waitingTime" : 1,
+    "startUnloadTime" : 39817,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship337",
+    "arrivalTime" : 40173,
+    "waitingTime" : 1,
+    "startUnloadTime" : 40174,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship378",
+    "arrivalTime" : 40312,
+    "waitingTime" : 1,
+    "startUnloadTime" : 40313,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship317",
+    "arrivalTime" : 40373,
+    "waitingTime" : 1,
+    "startUnloadTime" : 40374,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship369",
+    "arrivalTime" : 41024,
+    "waitingTime" : 1,
+    "startUnloadTime" : 41025,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship331",
+    "arrivalTime" : 41858,
+    "waitingTime" : 1,
+    "startUnloadTime" : 41859,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship395",
+    "arrivalTime" : 41996,
+    "waitingTime" : 1,
+    "startUnloadTime" : 41997,
+    "unloadTime" : 305
+  }, {
+    "name" : "ship367",
+    "arrivalTime" : 41998,
+    "waitingTime" : 1,
+    "startUnloadTime" : 41999,
+    "unloadTime" : 133
+  }, {
+    "name" : "ship374",
+    "arrivalTime" : 42145,
+    "waitingTime" : 39,
+    "startUnloadTime" : 42184,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship348",
+    "arrivalTime" : 42450,
+    "waitingTime" : 1,
+    "startUnloadTime" : 42451,
+    "unloadTime" : 0
+  }, {
+    "name" : "ship391",
+    "arrivalTime" : 42885,
+    "waitingTime" : 1,
+    "startUnloadTime" : 42886,
+    "unloadTime" : 0
+  } ],
+  "unloadCount" : 285,
+  "averageQueueSize" : 1,
+  "averageWaitingTime" : 58,
+  "averageDelayTime" : 1444,
+  "maxDelayTime" : 3361,
+  "sumCost" : 1151700,
+  "countOfLiquidCrane" : 6,
+  "countOfLooseCrane" : 5,
+  "countOfContainerCrane" : 5
+}
